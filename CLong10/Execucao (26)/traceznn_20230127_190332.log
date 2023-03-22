@@ -1,0 +1,2143 @@
+root - WARNING - Starting our experiment execution
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e496322315606', 'type': 'Normal', 'message': 'Successfully assigned default/failuremanager-5447786f55-99mbn to minikube', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e496345ad4e49', 'type': 'Normal', 'message': 'Pulling image "californibrs/failuremanager"', 'dateevent': '2023-01-27 22:00:02+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e49834b5ab2ab', 'type': 'Warning', 'message': 'Failed to pull image "californibrs/failuremanager": rpc error: code = Unknown desc = Error response from daemon: Head "https://registry-1.docker.io/v2/californibrs/failuremanager/manifests/latest": Get "https://auth.docker.io/token?scope=repository%3Acalifornibrs%2Ffailuremanager%3Apull&service=registry.docker.io": dial tcp: lookup auth.docker.io on 172.27.176.1:53: read udp 172.27.190.66:43029->172.27.176.1:53: i/o timeout', 'dateevent': '2023-01-27 22:02:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e49834b5b219a', 'type': 'Warning', 'message': 'Error: ErrImagePull', 'dateevent': '2023-01-27 22:02:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e4983735fa2eb', 'type': 'Normal', 'message': 'Back-off pulling image "californibrs/failuremanager"', 'dateevent': '2023-01-27 22:02:20+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e4983735fde4a', 'type': 'Warning', 'message': 'Error: ImagePullBackOff', 'dateevent': '2023-01-27 22:02:20+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55.173e496321a65530', 'type': 'Normal', 'message': 'Created pod: failuremanager-5447786f55-99mbn', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager.173e49632114912c', 'type': 'Normal', 'message': 'Scaled up replica set failuremanager-5447786f55 to 1', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e49632a54614e', 'type': 'Normal', 'message': 'Successfully assigned default/failuremonitor-747764f996-66m46 to minikube', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e496354962e27', 'type': 'Normal', 'message': 'Pulling image "californibrs/failuremonitor"', 'dateevent': '2023-01-27 22:00:02+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498e26cbf7cd', 'type': 'Normal', 'message': 'Successfully pulled image "californibrs/failuremonitor"', 'dateevent': '2023-01-27 22:03:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498ea075eeb2', 'type': 'Normal', 'message': 'Created container failuremonitor', 'dateevent': '2023-01-27 22:03:08+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498eaf8b7651', 'type': 'Normal', 'message': 'Started container failuremonitor', 'dateevent': '2023-01-27 22:03:08+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996.173e496324b034fa', 'type': 'Warning', 'message': 'Error creating: pods "failuremonitor-747764f996-" is forbidden: error looking up service account default/kubow-user: serviceaccount "kubow-user" not found', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996.173e4963297c39bc', 'type': 'Normal', 'message': 'Created pod: failuremonitor-747764f996-66m46', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor.173e4963240a2bbb', 'type': 'Normal', 'message': 'Scaled up replica set failuremonitor-747764f996 to 1', 'dateevent': '2023-01-27 22:00:01+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e4961f480bdd7', 'type': 'Normal', 'message': 'Successfully assigned default/fidelitya-778c6c6b8b-f9rf7 to minikube', 'dateevent': '2023-01-27 21:59:56+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e496240ea53b7', 'type': 'Normal', 'message': 'Pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 21:59:57+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e49766c3a54d2', 'type': 'Warning', 'message': 'Failed to pull image "cmendes/kubow:yellow-2": rpc error: code = Unknown desc = Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 172.27.176.1:53: read udp 172.27.190.66:44281->172.27.176.1:53: i/o timeout', 'dateevent': '2023-01-27 22:01:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e49766c3b2cd5', 'type': 'Warning', 'message': 'Error: ErrImagePull', 'dateevent': '2023-01-27 22:01:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e49769ed149ac', 'type': 'Normal', 'message': 'Back-off pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:01:25+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e49769ed20143', 'type': 'Warning', 'message': 'Error: ImagePullBackOff', 'dateevent': '2023-01-27 22:01:25+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b.173e4961f41397c3', 'type': 'Normal', 'message': 'Created pod: fidelitya-778c6c6b8b-f9rf7', 'dateevent': '2023-01-27 21:59:56+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya.173e4961f2f82511', 'type': 'Normal', 'message': 'Scaled up replica set fidelitya-778c6c6b8b to 1', 'dateevent': '2023-01-27 21:59:56+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'fidelitya.173e4961f2f82511', 'type': 'Normal', 'message': 'Scaled up replica set fidelitya-778c6c6b8b to 1', 'dateevent': '2023-01-27 21:59:56+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e49610ec19cef', 'type': 'Normal', 'message': 'Successfully assigned default/grafana-84cfffc84f-cs9qz to minikube', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e49615045d980', 'type': 'Normal', 'message': 'Pulling image "grafana/grafana:6.4.2"', 'dateevent': '2023-01-27 21:59:53+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e49666da26c21', 'type': 'Normal', 'message': 'Successfully pulled image "grafana/grafana:6.4.2"', 'dateevent': '2023-01-27 22:00:15+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e4966b6d32518', 'type': 'Normal', 'message': 'Created container grafana', 'dateevent': '2023-01-27 22:00:16+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e4966c2270c0d', 'type': 'Normal', 'message': 'Started container grafana', 'dateevent': '2023-01-27 22:00:17+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f-cs9qz.173e4966f78569b9', 'type': 'Warning', 'message': 'Readiness probe failed: Get http://172.17.0.4:3000/api/health: dial tcp 172.17.0.4:3000: connect: connection refused', 'dateevent': '2023-01-27 22:00:18+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana-84cfffc84f.173e49610dd13a2c', 'type': 'Normal', 'message': 'Created pod: grafana-84cfffc84f-cs9qz', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'grafana.173e49610c92d809', 'type': 'Normal', 'message': 'Scaled up replica set grafana-84cfffc84f to 1', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6-8nvxv.173e496ab76dc4ef', 'type': 'Normal', 'message': 'Successfully assigned default/k6-8nvxv to minikube', 'dateevent': '2023-01-27 22:00:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6-8nvxv.173e496bb62d55d8', 'type': 'Normal', 'message': 'Pulling image "loadimpact/k6"', 'dateevent': '2023-01-27 22:00:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6-8nvxv.173e4993a3b8f9e3', 'type': 'Normal', 'message': 'Successfully pulled image "loadimpact/k6"', 'dateevent': '2023-01-27 22:03:29+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6-8nvxv.173e4993bf0e0f74', 'type': 'Normal', 'message': 'Created container k6', 'dateevent': '2023-01-27 22:03:30+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6-8nvxv.173e4993cc37ddd2', 'type': 'Normal', 'message': 'Started container k6', 'dateevent': '2023-01-27 22:03:30+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k6.173e496aaedcbac8', 'type': 'Normal', 'message': 'Created pod: k6-8nvxv', 'dateevent': '2023-01-27 22:00:33+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc-wt2vw.173e49610f8e7d21', 'type': 'Normal', 'message': 'Successfully assigned default/kube-state-metrics-6579fc54cc-wt2vw to minikube', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc-wt2vw.173e49614f929d00', 'type': 'Normal', 'message': 'Pulling image "quay.io/coreos/kube-state-metrics:v1.9.5"', 'dateevent': '2023-01-27 21:59:53+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc-wt2vw.173e4963e35a4f24', 'type': 'Normal', 'message': 'Successfully pulled image "quay.io/coreos/kube-state-metrics:v1.9.5"', 'dateevent': '2023-01-27 22:00:04+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc-wt2vw.173e4963f1e4f13c', 'type': 'Normal', 'message': 'Created container kube-state-metrics', 'dateevent': '2023-01-27 22:00:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc-wt2vw.173e4963fdd36923', 'type': 'Normal', 'message': 'Started container kube-state-metrics', 'dateevent': '2023-01-27 22:00:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics-6579fc54cc.173e49610f096178', 'type': 'Normal', 'message': 'Created pod: kube-state-metrics-6579fc54cc-wt2vw', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-state-metrics.173e49610e0b5bdc', 'type': 'Normal', 'message': 'Scaled up replica set kube-state-metrics-6579fc54cc to 1', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e496174333a95', 'type': 'Normal', 'message': 'Successfully assigned default/kube-znn-68bd9d6b5b-bswkg to minikube', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e4961a96de144', 'type': 'Normal', 'message': 'Pulling image "cmendes/znn:800k"', 'dateevent': '2023-01-27 21:59:55+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e496d58a2088c', 'type': 'Normal', 'message': 'Successfully pulled image "cmendes/znn:800k"', 'dateevent': '2023-01-27 22:00:45+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e496ef7f570fb', 'type': 'Normal', 'message': 'Created container znn', 'dateevent': '2023-01-27 22:00:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e496f0d46dfb2', 'type': 'Normal', 'message': 'Started container znn', 'dateevent': '2023-01-27 22:00:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e496f123e07b2', 'type': 'Normal', 'message': 'Pulling image "openresty/openresty:alpine-fat"', 'dateevent': '2023-01-27 22:00:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e496173e23d95', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-bswkg', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e49617593b4f8', 'type': 'Normal', 'message': 'Successfully assigned default/kube-znn-db-6cc48797cf-qqptr to minikube', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e4961aaff08df', 'type': 'Normal', 'message': 'Pulling image "mysql:5.6"', 'dateevent': '2023-01-27 21:59:55+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e4971c1d40bf8', 'type': 'Normal', 'message': 'Successfully pulled image "mysql:5.6"', 'dateevent': '2023-01-27 22:01:04+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e497262a00eef', 'type': 'Normal', 'message': 'Created container mysql', 'dateevent': '2023-01-27 22:01:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e49726e273d2a', 'type': 'Normal', 'message': 'Started container mysql', 'dateevent': '2023-01-27 22:01:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf-qqptr.173e4972e5c5d528', 'type': 'Warning', 'message': 'Liveness probe failed: dial tcp 172.17.0.8:3306: connect: connection refused', 'dateevent': '2023-01-27 22:01:09+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db-6cc48797cf.173e496174b3f0f8', 'type': 'Normal', 'message': 'Created pod: kube-znn-db-6cc48797cf-qqptr', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-db.173e4961742b966c', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-db-6cc48797cf to 1', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn-db.173e4961742b966c', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-db-6cc48797cf to 1', 'dateevent': '2023-01-27 21:59:54+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49617370fe61', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 1', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49617370fe61', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 1', 'dateevent': '2023-01-27 21:59:54+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e496380ad770d', 'type': 'Normal', 'message': 'Successfully assigned default/metacontroller-kubow-8479d7588d-9r7bf to minikube', 'dateevent': '2023-01-27 22:00:03+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4963bcc284b7', 'type': 'Normal', 'message': 'Pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:00:04+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4991bc9940bb', 'type': 'Warning', 'message': 'Failed to pull image "cmendes/kubow:yellow-2": rpc error: code = Unknown desc = Error response from daemon: Head "https://registry-1.docker.io/v2/cmendes/kubow/manifests/yellow-2": Get "https://auth.docker.io/token?scope=repository%3Acmendes%2Fkubow%3Apull&service=registry.docker.io": dial tcp: lookup auth.docker.io on 172.27.176.1:53: read udp 172.27.190.66:37103->172.27.176.1:53: i/o timeout', 'dateevent': '2023-01-27 22:03:21+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4991bc9979c2', 'type': 'Warning', 'message': 'Error: ErrImagePull', 'dateevent': '2023-01-27 22:03:21+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4991ddf82d30', 'type': 'Normal', 'message': 'Back-off pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:03:22+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4991ddf87448', 'type': 'Warning', 'message': 'Error: ImagePullBackOff', 'dateevent': '2023-01-27 22:03:22+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d.173e49638063842d', 'type': 'Normal', 'message': 'Created pod: metacontroller-kubow-8479d7588d-9r7bf', 'dateevent': '2023-01-27 22:00:03+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow.173e49638035e9a6', 'type': 'Normal', 'message': 'Scaled up replica set metacontroller-kubow-8479d7588d to 1', 'dateevent': '2023-01-27 22:00:03+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495a67092dfc', 'type': 'Normal', 'message': 'Starting kubelet.', 'dateevent': '2023-01-27 21:59:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495a6d56318c', 'type': 'Normal', 'message': 'Node minikube status is now: NodeHasSufficientMemory', 'dateevent': '2023-01-27 21:59:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495a6d56bc9b', 'type': 'Normal', 'message': 'Node minikube status is now: NodeHasNoDiskPressure', 'dateevent': '2023-01-27 21:59:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495a6d56ce2f', 'type': 'Normal', 'message': 'Node minikube status is now: NodeHasSufficientPID', 'dateevent': '2023-01-27 21:59:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495a6f4350ff', 'type': 'Normal', 'message': 'Updated Node Allocatable limit across pods', 'dateevent': '2023-01-27 21:59:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495fd1c75fde', 'type': 'Normal', 'message': 'Node minikube event: Registered Node minikube in Controller', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'minikube.173e495fff13348f', 'type': 'Normal', 'message': 'Starting kube-proxy.', 'dateevent': '2023-01-27 21:59:48+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e4961cb0b35cb', 'type': 'Normal', 'message': 'Successfully assigned default/nginx-ingress-7f5885d87c-ssmn7 to minikube', 'dateevent': '2023-01-27 21:59:55+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e496209f3caf4', 'type': 'Normal', 'message': 'Pulling image "nginx/nginx-ingress:1.7.0"', 'dateevent': '2023-01-27 21:59:56+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e497417386b16', 'type': 'Warning', 'message': 'Failed to pull image "nginx/nginx-ingress:1.7.0": rpc error: code = Unknown desc = Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 172.27.176.1:53: read udp 172.27.190.66:45779->172.27.176.1:53: i/o timeout', 'dateevent': '2023-01-27 22:01:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e49741739388c', 'type': 'Warning', 'message': 'Error: ErrImagePull', 'dateevent': '2023-01-27 22:01:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e497443458c45', 'type': 'Normal', 'message': 'Back-off pulling image "nginx/nginx-ingress:1.7.0"', 'dateevent': '2023-01-27 22:01:15+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e497443465637', 'type': 'Warning', 'message': 'Error: ImagePullBackOff', 'dateevent': '2023-01-27 22:01:15+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c.173e49618b798f40', 'type': 'Warning', 'message': 'Error creating: pods "nginx-ingress-7f5885d87c-" is forbidden: error looking up service account default/nginx-ingress: serviceaccount "nginx-ingress" not found', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c.173e4961ca9b7494', 'type': 'Normal', 'message': 'Created pod: nginx-ingress-7f5885d87c-ssmn7', 'dateevent': '2023-01-27 21:59:55+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress.173e49618b200e46', 'type': 'Normal', 'message': 'Scaled up replica set nginx-ingress-7f5885d87c to 1', 'dateevent': '2023-01-27 21:59:54+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979-fbgvg.173e496111b7ca1a', 'type': 'Normal', 'message': 'Successfully assigned default/prometheus-7d59995979-fbgvg to minikube', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979-fbgvg.173e49615132684a', 'type': 'Normal', 'message': 'Pulling image "prom/prometheus:v2.16.0"', 'dateevent': '2023-01-27 21:59:53+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979-fbgvg.173e4968463d2da1', 'type': 'Normal', 'message': 'Successfully pulled image "prom/prometheus:v2.16.0"', 'dateevent': '2023-01-27 22:00:23+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979-fbgvg.173e496a94b0ed0c', 'type': 'Normal', 'message': 'Created container prometheus', 'dateevent': '2023-01-27 22:00:33+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979-fbgvg.173e496abe479f0b', 'type': 'Normal', 'message': 'Started container prometheus', 'dateevent': '2023-01-27 22:00:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus-7d59995979.173e4961112bd7be', 'type': 'Normal', 'message': 'Created pod: prometheus-7d59995979-fbgvg', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'prometheus.173e496110e30b8d', 'type': 'Normal', 'message': 'Scaled up replica set prometheus-7d59995979 to 1', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e496250845fbd', 'type': 'Normal', 'message': 'Successfully assigned default/scalabilitya-78d6cbbc7d-k2plf to minikube', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e496250845fbd', 'type': 'Normal', 'message': 'Successfully assigned default/scalabilitya-78d6cbbc7d-k2plf to minikube', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e4962c14ad6b0', 'type': 'Normal', 'message': 'Pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 21:59:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e4962c14ad6b0', 'type': 'Normal', 'message': 'Pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 21:59:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49800fd22b4e', 'type': 'Normal', 'message': 'Successfully pulled image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:02:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49800fd22b4e', 'type': 'Normal', 'message': 'Successfully pulled image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:02:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49813242a524', 'type': 'Normal', 'message': 'Created container kubow', 'dateevent': '2023-01-27 22:02:10+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49813242a524', 'type': 'Normal', 'message': 'Created container kubow', 'dateevent': '2023-01-27 22:02:10+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49814086cf94', 'type': 'Normal', 'message': 'Started container kubow', 'dateevent': '2023-01-27 22:02:10+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d-k2plf.173e49814086cf94', 'type': 'Normal', 'message': 'Started container kubow', 'dateevent': '2023-01-27 22:02:10+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d.173e49624fcba5a4', 'type': 'Normal', 'message': 'Created pod: scalabilitya-78d6cbbc7d-k2plf', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya-78d6cbbc7d.173e49624fcba5a4', 'type': 'Normal', 'message': 'Created pod: scalabilitya-78d6cbbc7d-k2plf', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'scalabilitya.173e49624f0499b0', 'type': 'Normal', 'message': 'Scaled up replica set scalabilitya-78d6cbbc7d to 1', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for Metacontroller and microcontrollers: 
+root - WARNING - 
+
+ MetaController has adapted the microcontrollers.
+root - WARNING - {'name': 'scalabilitya.173e49624f0499b0', 'type': 'Normal', 'message': 'Scaled up replica set scalabilitya-78d6cbbc7d to 1', 'dateevent': '2023-01-27 21:59:58+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns-5644d7b6d9-rqbl2.173e495fe62f394c', 'type': 'Normal', 'message': 'Successfully assigned kube-system/coredns-5644d7b6d9-rqbl2 to minikube', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns-5644d7b6d9-rqbl2.173e49600e2ca60e', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/coredns:1.6.2" already present on machine', 'dateevent': '2023-01-27 21:59:48+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns-5644d7b6d9-rqbl2.173e496011b24af4', 'type': 'Normal', 'message': 'Created container coredns', 'dateevent': '2023-01-27 21:59:48+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns-5644d7b6d9-rqbl2.173e49601a1dc401', 'type': 'Normal', 'message': 'Started container coredns', 'dateevent': '2023-01-27 21:59:48+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns-5644d7b6d9.173e495fe5a65499', 'type': 'Normal', 'message': 'Created pod: coredns-5644d7b6d9-rqbl2', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'coredns.173e495fe55e05fd', 'type': 'Normal', 'message': 'Scaled up replica set coredns-5644d7b6d9 to 1', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'etcd-minikube.173e495addc0a9bd', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/etcd:3.3.15-0" already present on machine', 'dateevent': '2023-01-27 21:59:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'etcd-minikube.173e495ae3017fec', 'type': 'Normal', 'message': 'Created container etcd', 'dateevent': '2023-01-27 21:59:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'etcd-minikube.173e495aefbf6f2d', 'type': 'Normal', 'message': 'Started container etcd', 'dateevent': '2023-01-27 21:59:39+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'k8s.io-minikube-hostpath.173e49672df7ca4c', 'type': 'Normal', 'message': 'minikube_837f4014-6067-4235-ae96-238b162bc7fc became leader', 'dateevent': '2023-01-27 22:00:18+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-apiserver-minikube.173e495adcc504ff', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/kube-apiserver:v1.16.10" already present on machine', 'dateevent': '2023-01-27 21:59:37+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-apiserver-minikube.173e495ae301eedc', 'type': 'Normal', 'message': 'Created container kube-apiserver', 'dateevent': '2023-01-27 21:59:39+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-apiserver-minikube.173e495aef765462', 'type': 'Normal', 'message': 'Started container kube-apiserver', 'dateevent': '2023-01-27 21:59:39+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-apiserver-minikube.173e496a4d04f4f4', 'type': 'Warning', 'message': 'Liveness probe failed: HTTP probe failed with statuscode: 500', 'dateevent': '2023-01-27 22:00:32+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-controller-manager-minikube.173e495addc16028', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/kube-controller-manager:v1.16.10" already present on machine', 'dateevent': '2023-01-27 21:59:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-controller-manager-minikube.173e495ae396bed5', 'type': 'Normal', 'message': 'Created container kube-controller-manager', 'dateevent': '2023-01-27 21:59:39+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-controller-manager-minikube.173e495af0550919', 'type': 'Normal', 'message': 'Started container kube-controller-manager', 'dateevent': '2023-01-27 21:59:40+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-proxy-2pkvj.173e495fc9bae8d9', 'type': 'Normal', 'message': 'Successfully assigned kube-system/kube-proxy-2pkvj to minikube', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-proxy-2pkvj.173e495fee2a204e', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/kube-proxy:v1.16.10" already present on machine', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-proxy-2pkvj.173e495ff132f6a4', 'type': 'Normal', 'message': 'Created container kube-proxy', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-proxy-2pkvj.173e495ff9780af8', 'type': 'Normal', 'message': 'Started container kube-proxy', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-proxy.173e495fc95ca155', 'type': 'Normal', 'message': 'Created pod: kube-proxy-2pkvj', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-scheduler-minikube.173e495ade5a1b9f', 'type': 'Normal', 'message': 'Container image "k8s.gcr.io/kube-scheduler:v1.16.10" already present on machine', 'dateevent': '2023-01-27 21:59:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-scheduler-minikube.173e495ae3018500', 'type': 'Normal', 'message': 'Created container kube-scheduler', 'dateevent': '2023-01-27 21:59:38+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-scheduler-minikube.173e495af04d2b79', 'type': 'Normal', 'message': 'Started container kube-scheduler', 'dateevent': '2023-01-27 21:59:39+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4-h5642.173e49610c4b2320', 'type': 'Normal', 'message': 'Successfully assigned kube-system/metrics-server-9c97ff6d4-h5642 to minikube', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4-h5642.173e496143279ddd', 'type': 'Normal', 'message': 'Pulling image "k8s.gcr.io/metrics-server-amd64:v0.3.6"', 'dateevent': '2023-01-27 21:59:53+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4-h5642.173e4962c696d480', 'type': 'Normal', 'message': 'Successfully pulled image "k8s.gcr.io/metrics-server-amd64:v0.3.6"', 'dateevent': '2023-01-27 22:00:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4-h5642.173e4962d2029e74', 'type': 'Normal', 'message': 'Created container metrics-server', 'dateevent': '2023-01-27 22:00:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4-h5642.173e4962db99f052', 'type': 'Normal', 'message': 'Started container metrics-server', 'dateevent': '2023-01-27 22:00:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server-9c97ff6d4.173e49610bfea28b', 'type': 'Normal', 'message': 'Created pod: metrics-server-9c97ff6d4-h5642', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metrics-server.173e49610b6068ba', 'type': 'Normal', 'message': 'Scaled up replica set metrics-server-9c97ff6d4 to 1', 'dateevent': '2023-01-27 21:59:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'storage-provisioner.173e495d37a54877', 'type': 'Warning', 'message': "0/1 nodes are available: 1 node(s) had taints that the pod didn't tolerate.", 'dateevent': '2023-01-27 21:59:36+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'storage-provisioner.173e495fd2a8de97', 'type': 'Normal', 'message': 'Successfully assigned kube-system/storage-provisioner to minikube', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'storage-provisioner.173e495ff47c110c', 'type': 'Normal', 'message': 'Container image "gcr.io/k8s-minikube/storage-provisioner:v5" already present on machine', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'storage-provisioner.173e495ff842ed25', 'type': 'Normal', 'message': 'Created container storage-provisioner', 'dateevent': '2023-01-27 21:59:47+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'storage-provisioner.173e496003e52274', 'type': 'Normal', 'message': 'Started container storage-provisioner', 'dateevent': '2023-01-27 21:59:48+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e4963bcc284b7', 'type': 'Normal', 'message': 'Pulling image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:00:04+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e499669309081', 'type': 'Normal', 'message': 'Successfully pulled image "openresty/openresty:alpine-fat"', 'dateevent': '2023-01-27 22:03:41+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e4996fe9f91f9', 'type': 'Normal', 'message': 'Created container nginx', 'dateevent': '2023-01-27 22:03:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bswkg.173e49970afd0127', 'type': 'Normal', 'message': 'Started container nginx', 'dateevent': '2023-01-27 22:03:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e4998509ff7cc', 'type': 'Normal', 'message': 'Successfully pulled image "nginx/nginx-ingress:1.7.0"', 'dateevent': '2023-01-27 22:03:49+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e4998b21d09db', 'type': 'Normal', 'message': 'Successfully pulled image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:03:51+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e4998b44ee186', 'type': 'Normal', 'message': 'Created container nginx-ingress', 'dateevent': '2023-01-27 22:03:51+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-ingress-7f5885d87c-ssmn7.173e4998c12d4599', 'type': 'Normal', 'message': 'Started container nginx-ingress', 'dateevent': '2023-01-27 22:03:51+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'ingress-kube-znn.173e4998cd247a12', 'type': 'Normal', 'message': 'Configuration for default/ingress-kube-znn was added or updated', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-ingress.173e4998d55df627', 'type': 'Normal', 'message': 'Configuration for default/failuremanager-ingress was added or updated', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e4998eba9830c', 'type': 'Normal', 'message': 'Created container kubow', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'default-server-secret.173e4998ee1c7fed', 'type': 'Normal', 'message': 'the special Secret default/default-server-secret was updated', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'nginx-config.173e4998f5296c66', 'type': 'Normal', 'message': 'Configuration from default/nginx-config was updated ', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'ingress-kube-znn.173e4998f5298885', 'type': 'Normal', 'message': 'Configuration for default/ingress-kube-znn was updated ', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-ingress.173e4998f5299631', 'type': 'Normal', 'message': 'Configuration for default/failuremanager-ingress was updated ', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'fidelitya-778c6c6b8b-f9rf7.173e4998f869ff9c', 'type': 'Normal', 'message': 'Started container kubow', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'ingress-kube-znn.173e4998cd247a12', 'type': 'Normal', 'message': 'Configuration for default/ingress-kube-znn was added or updated', 'dateevent': '2023-01-27 22:03:52+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e499adb5fea06', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 2', 'dateevent': '2023-01-27 22:04:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e499adb5fea06', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 2', 'dateevent': '2023-01-27 22:04:00+00:00', 'image': 'cmendes/znn:800k', 'replicas': 2, 'imageChanges': 0, 'replicasChanges': 2}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e499adcff71f9', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-gcvm4', 'dateevent': '2023-01-27 22:04:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499add36c7ef', 'type': 'Normal', 'message': 'Successfully assigned default/kube-znn-68bd9d6b5b-gcvm4 to minikube', 'dateevent': '2023-01-27 22:04:00+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e499bd256fd12', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 3', 'dateevent': '2023-01-27 22:04:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e499bd256fd12', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 3', 'dateevent': '2023-01-27 22:04:05+00:00', 'image': 'cmendes/znn:800k', 'replicas': 3, 'imageChanges': 0, 'replicasChanges': 3}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e499bd38ef17d', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-gbmxl', 'dateevent': '2023-01-27 22:04:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499bd4409ae4', 'type': 'Normal', 'message': 'Successfully assigned default/kube-znn-68bd9d6b5b-gbmxl to minikube', 'dateevent': '2023-01-27 22:04:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499bf9c6cf33', 'type': 'Normal', 'message': 'Container image "cmendes/znn:800k" already present on machine', 'dateevent': '2023-01-27 22:04:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499c05b8a761', 'type': 'Normal', 'message': 'Created container znn', 'dateevent': '2023-01-27 22:04:05+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499c15767981', 'type': 'Normal', 'message': 'Started container znn', 'dateevent': '2023-01-27 22:04:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499c1d812aa4', 'type': 'Normal', 'message': 'Container image "openresty/openresty:alpine-fat" already present on machine', 'dateevent': '2023-01-27 22:04:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c23bb853a', 'type': 'Normal', 'message': 'Container image "cmendes/znn:800k" already present on machine', 'dateevent': '2023-01-27 22:04:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c2ff3c971', 'type': 'Normal', 'message': 'Created container znn', 'dateevent': '2023-01-27 22:04:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c47f4ab8c', 'type': 'Normal', 'message': 'Started container znn', 'dateevent': '2023-01-27 22:04:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c4e458432', 'type': 'Normal', 'message': 'Container image "openresty/openresty:alpine-fat" already present on machine', 'dateevent': '2023-01-27 22:04:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499c4f3aa42b', 'type': 'Normal', 'message': 'Created container nginx', 'dateevent': '2023-01-27 22:04:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gcvm4.173e499c617de7a0', 'type': 'Normal', 'message': 'Started container nginx', 'dateevent': '2023-01-27 22:04:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c7b2d1bb7', 'type': 'Normal', 'message': 'Created container nginx', 'dateevent': '2023-01-27 22:04:07+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-gbmxl.173e499c8b5cb7fb', 'type': 'Normal', 'message': 'Started container nginx', 'dateevent': '2023-01-27 22:04:08+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e499ce65eac1d', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 4', 'dateevent': '2023-01-27 22:04:09+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e499ce65eac1d', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 4', 'dateevent': '2023-01-27 22:04:09+00:00', 'image': 'cmendes/znn:800k', 'replicas': 4, 'imageChanges': 0, 'replicasChanges': 4}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e499ce7181a89', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-bqm59', 'dateevent': '2023-01-27 22:04:09+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499ce76efec7', 'type': 'Normal', 'message': 'Successfully assigned default/kube-znn-68bd9d6b5b-bqm59 to minikube', 'dateevent': '2023-01-27 22:04:09+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499d46bdc31d', 'type': 'Normal', 'message': 'Container image "cmendes/znn:800k" already present on machine', 'dateevent': '2023-01-27 22:04:11+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499d5e9e79d4', 'type': 'Normal', 'message': 'Created container znn', 'dateevent': '2023-01-27 22:04:11+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499d6def4a43', 'type': 'Normal', 'message': 'Started container znn', 'dateevent': '2023-01-27 22:04:11+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499d72c560c6', 'type': 'Normal', 'message': 'Container image "openresty/openresty:alpine-fat" already present on machine', 'dateevent': '2023-01-27 22:04:12+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499d9cd898b2', 'type': 'Normal', 'message': 'Created container nginx', 'dateevent': '2023-01-27 22:04:12+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-bqm59.173e499dac75eeda', 'type': 'Normal', 'message': 'Started container nginx', 'dateevent': '2023-01-27 22:04:12+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e499e0c2f2bfa', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 5', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e499e0c2f2bfa', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 5', 'dateevent': '2023-01-27 22:04:14+00:00', 'image': 'cmendes/znn:800k', 'replicas': 5, 'imageChanges': 0, 'replicasChanges': 5}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e499e0ce1feac', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-57dn7', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e496354962e27', 'type': 'Normal', 'message': 'Pulling image "californibrs/failuremonitor"', 'dateevent': '2023-01-27 22:00:02+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e499f387c8b67', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 6', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e499f387c8b67', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 6', 'dateevent': '2023-01-27 22:04:19+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 6}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e499f399015ed', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-rckh8', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e499ff995479f', 'type': 'Normal', 'message': 'Successfully pulled image "californibrs/failuremanager"', 'dateevent': '2023-01-27 22:04:22+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49a062db23a6', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49a062db23a6', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:04:24+00:00', 'image': 'cmendes/znn:800k', 'replicas': 7, 'imageChanges': 0, 'replicasChanges': 7}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49a063700d2e', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-dskts', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-dskts.173e49a0637459ee', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e49a068a76870', 'type': 'Normal', 'message': 'Created container failuremanager', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremanager-5447786f55-99mbn.173e49a07474eedc', 'type': 'Normal', 'message': 'Started container failuremanager', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e49a0d4cfc5e6', 'type': 'Normal', 'message': 'Successfully pulled image "cmendes/kubow:yellow-2"', 'dateevent': '2023-01-27 22:04:26+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e49a11aee3639', 'type': 'Normal', 'message': 'Created container kubow', 'dateevent': '2023-01-27 22:04:27+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'metacontroller-kubow-8479d7588d-9r7bf.173e49a12874cb8e', 'type': 'Normal', 'message': 'Started container kubow', 'dateevent': '2023-01-27 22:04:27+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498e26cbf7cd', 'type': 'Normal', 'message': 'Successfully pulled image "californibrs/failuremonitor"', 'dateevent': '2023-01-27 22:03:06+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498ea075eeb2', 'type': 'Normal', 'message': 'Created container failuremonitor', 'dateevent': '2023-01-27 22:03:08+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'failuremonitor-747764f996-66m46.173e498eaf8b7651', 'type': 'Normal', 'message': 'Started container failuremonitor', 'dateevent': '2023-01-27 22:03:08+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49a2b235d8b2', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:04:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49a2b235d8b2', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:04:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 8, 'imageChanges': 0, 'replicasChanges': 8}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49a2b2e55ef2', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-rvb65', 'dateevent': '2023-01-27 22:04:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rvb65.173e49a2b2f542cc', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rvb65.173e49a2b2f542cc', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49a5077b7ede', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 9', 'dateevent': '2023-01-27 22:04:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49a5077b7ede', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 9', 'dateevent': '2023-01-27 22:04:44+00:00', 'image': 'cmendes/znn:800k', 'replicas': 9, 'imageChanges': 0, 'replicasChanges': 9}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-x9m88.173e49a507d0fd5c', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49a5080292c0', 'type': 'Normal', 'message': 'Created pod: kube-znn-68bd9d6b5b-x9m88', 'dateevent': '2023-01-27 22:04:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-x9m88.173e49a507d0fd5c', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:44+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-dskts.173e49a0637459ee', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:05:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 8, 'imageChanges': 0, 'replicasChanges': 10}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-x9m88.173e49b0ae251e11', 'type': 'Warning', 'message': 'skip schedule deleting pod: default/kube-znn-68bd9d6b5b-x9m88', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49b0aec41960', 'type': 'Normal', 'message': 'Deleted pod: kube-znn-68bd9d6b5b-x9m88', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rvb65.173e49a2b2f542cc', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-dskts.173e49a0637459ee', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:24+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:05:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 7, 'imageChanges': 0, 'replicasChanges': 11}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rvb65.173e49c477c4de4f', 'type': 'Warning', 'message': 'skip schedule deleting pod: default/kube-znn-68bd9d6b5b-rvb65', 'dateevent': '2023-01-27 22:06:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49c4785d3479', 'type': 'Normal', 'message': 'Deleted pod: kube-znn-68bd9d6b5b-rvb65', 'dateevent': '2023-01-27 22:06:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-dskts.173e49d5eda58375', 'type': 'Warning', 'message': 'skip schedule deleting pod: default/kube-znn-68bd9d6b5b-dskts', 'dateevent': '2023-01-27 22:08:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 6', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 6', 'dateevent': '2023-01-27 22:05:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 12}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49d5ee84aa14', 'type': 'Normal', 'message': 'Deleted pod: kube-znn-68bd9d6b5b-dskts', 'dateevent': '2023-01-27 22:08:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-57dn7.173e499e0cb4a416', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:14+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e499f396b8cb0', 'type': 'Warning', 'message': '0/1 nodes are available: 1 Insufficient cpu.', 'dateevent': '2023-01-27 22:04:19+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 5', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 5', 'dateevent': '2023-01-27 22:05:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 5, 'imageChanges': 0, 'replicasChanges': 13}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b-rckh8.173e49e065fc7393', 'type': 'Warning', 'message': 'skip schedule deleting pod: default/kube-znn-68bd9d6b5b-rckh8', 'dateevent': '2023-01-27 22:08:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn-68bd9d6b5b.173e49e0669807d5', 'type': 'Normal', 'message': 'Deleted pod: kube-znn-68bd9d6b5b-rckh8', 'dateevent': '2023-01-27 22:08:59+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - General Log - 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 4', 'dateevent': '2023-01-27 22:05:34+00:00'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Captured event for znn: 
+root - WARNING - {'name': 'kube-znn.173e49b0ad8ee28a', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 4', 'dateevent': '2023-01-27 22:05:34+00:00', 'image': 'cmendes/znn:800k', 'replicas': 4, 'imageChanges': 0, 'replicasChanges': 14}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+Data collection
+root - WARNING - Datetime:
+root - WARNING - 20230127_190934
+root - WARNING - {'name': 'Kube-znn', 'period': 0, 'initialreplicas': 1, 'initialimage': 'cmendes/znn:800k', 'initialreplicasChanges': '0', 'initialimageChanges': '0', 'initialevent': '20230127_190332', 'current_replicas': 4, 'current_image': 'cmendes/znn:800k', 'finalreplicasChanges': 14, 'finalimageChanges': 0, 'finalevent': '20230127_190934'}
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - 
+
+-----------------------------------------
+root - WARNING - Generating logs for Kubow and K6.
+root - WARNING - File fidelitya-778c6c6b8b-f9rf7_tracing_20230127_190332.loghas been generated.
+root - WARNING - File k6-8nvxv_tracing_20230127_190332.loghas been generated.
+root - WARNING - File metacontroller-kubow-8479d7588d-9r7bf_tracing_20230127_190332.loghas been generated.
+root - WARNING - File scalabilitya-78d6cbbc7d-k2plf_tracing_20230127_190332.loghas been generated.
+root - WARNING - Finished pod stream.
+root - WARNING - 
+
+-----------------------------------------

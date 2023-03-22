@@ -1,0 +1,1686 @@
+I0130 19:44:17.110328       1 main.go:186] Starting NGINX Ingress controller Version=1.7.0 GitCommit=d2ad33c4
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: nginx/1.17.10
+2023/01/30 19:44:17 [notice] 13#13: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2023/01/30 19:44:17 [notice] 13#13: OS: Linux 4.19.202
+2023/01/30 19:44:17 [notice] 13#13: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 14
+2023/01/30 19:44:17 [notice] 13#13: start worker process 15
+2023/01/30 19:44:17 [notice] 13#13: start worker process 16
+2023/01/30 19:44:17 [notice] 13#13: start worker process 17
+2023/01/30 19:44:17 [notice] 13#13: start worker process 18
+I0130 19:44:17.157951       1 listener.go:52] Starting Prometheus listener on: :9113/metrics
+W0130 19:44:17.201589       1 controller.go:1803] Error retrieving endpoints for the service kube-znn: service default/kube-znn doesn't exist
+2023/01/30 19:44:17 [notice] 25#25: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 25, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 27
+2023/01/30 19:44:17 [notice] 13#13: start worker process 28
+2023/01/30 19:44:17 [notice] 13#13: start worker process 29
+2023/01/30 19:44:17 [notice] 13#13: start worker process 30
+2023/01/30 19:44:17 [notice] 13#13: start worker process 31
+2023/01/30 19:44:17 [notice] 14#14: gracefully shutting down
+2023/01/30 19:44:17 [notice] 16#16: gracefully shutting down
+2023/01/30 19:44:17 [notice] 18#18: gracefully shutting down
+2023/01/30 19:44:17 [notice] 15#15: gracefully shutting down
+2023/01/30 19:44:17 [notice] 18#18: exiting
+2023/01/30 19:44:17 [notice] 15#15: exiting
+2023/01/30 19:44:17 [notice] 14#14: exiting
+2023/01/30 19:44:17 [notice] 16#16: exiting
+2023/01/30 19:44:17 [notice] 17#17: gracefully shutting down
+2023/01/30 19:44:17 [notice] 18#18: exit
+2023/01/30 19:44:17 [notice] 14#14: exit
+2023/01/30 19:44:17 [notice] 16#16: exit
+2023/01/30 19:44:17 [notice] 17#17: exiting
+2023/01/30 19:44:17 [notice] 17#17: exit
+2023/01/30 19:44:17 [notice] 15#15: exit
+I0130 19:44:17.335297       1 event.go:278] Event(v1.ObjectReference{Kind:"Ingress", Namespace:"default", Name:"ingress-kube-znn", UID:"7419a6d7-79df-4c56-9d0d-83313e3ff773", APIVersion:"extensions/v1beta1", ResourceVersion:"506", FieldPath:""}): type: 'Normal' reason: 'AddedOrUpdated' Configuration for default/ingress-kube-znn was added or updated
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 17
+2023/01/30 19:44:17 [notice] 13#13: worker process 17 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 16
+2023/01/30 19:44:17 [notice] 13#13: worker process 14 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 15 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 16 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 18 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 14
+2023/01/30 19:44:17 [notice] 33#33: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 33, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 34
+2023/01/30 19:44:17 [notice] 13#13: start worker process 35
+2023/01/30 19:44:17 [notice] 13#13: start worker process 36
+2023/01/30 19:44:17 [notice] 13#13: start worker process 37
+2023/01/30 19:44:17 [notice] 13#13: start worker process 38
+2023/01/30 19:44:17 [notice] 27#27: gracefully shutting down
+2023/01/30 19:44:17 [notice] 28#28: gracefully shutting down
+2023/01/30 19:44:17 [notice] 29#29: gracefully shutting down
+2023/01/30 19:44:17 [notice] 28#28: exiting
+2023/01/30 19:44:17 [notice] 29#29: exiting
+2023/01/30 19:44:17 [notice] 27#27: exiting
+2023/01/30 19:44:17 [notice] 27#27: exit
+2023/01/30 19:44:17 [notice] 29#29: exit
+2023/01/30 19:44:17 [notice] 28#28: exit
+2023/01/30 19:44:17 [notice] 31#31: gracefully shutting down
+2023/01/30 19:44:17 [notice] 31#31: exiting
+2023/01/30 19:44:17 [notice] 30#30: gracefully shutting down
+2023/01/30 19:44:17 [notice] 31#31: exit
+2023/01/30 19:44:17 [notice] 30#30: exiting
+2023/01/30 19:44:17 [notice] 30#30: exit
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 28
+2023/01/30 19:44:17 [notice] 13#13: worker process 28 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 27
+2023/01/30 19:44:17 [notice] 13#13: worker process 27 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 29 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 30 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 30
+2023/01/30 19:44:17 [notice] 13#13: worker process 31 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+I0130 19:44:17.479192       1 event.go:278] Event(v1.ObjectReference{Kind:"Ingress", Namespace:"default", Name:"failuremanager-ingress", UID:"ae78f5b9-96e7-4471-9f7a-7a65607f555d", APIVersion:"extensions/v1beta1", ResourceVersion:"695", FieldPath:""}): type: 'Normal' reason: 'AddedOrUpdated' Configuration for default/failuremanager-ingress was added or updated
+2023/01/30 19:44:17 [notice] 40#40: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 40, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 41
+2023/01/30 19:44:17 [notice] 13#13: start worker process 42
+2023/01/30 19:44:17 [notice] 13#13: start worker process 43
+2023/01/30 19:44:17 [notice] 13#13: start worker process 44
+2023/01/30 19:44:17 [notice] 13#13: start worker process 45
+2023/01/30 19:44:17 [notice] 35#35: gracefully shutting down
+2023/01/30 19:44:17 [notice] 34#34: gracefully shutting down
+2023/01/30 19:44:17 [notice] 36#36: gracefully shutting down
+2023/01/30 19:44:17 [notice] 37#37: gracefully shutting down
+2023/01/30 19:44:17 [notice] 35#35: exiting
+2023/01/30 19:44:17 [notice] 36#36: exiting
+2023/01/30 19:44:17 [notice] 37#37: exiting
+2023/01/30 19:44:17 [notice] 34#34: exiting
+2023/01/30 19:44:17 [notice] 35#35: exit
+2023/01/30 19:44:17 [notice] 37#37: exit
+2023/01/30 19:44:17 [notice] 34#34: exit
+2023/01/30 19:44:17 [notice] 36#36: exit
+2023/01/30 19:44:17 [notice] 38#38: gracefully shutting down
+2023/01/30 19:44:17 [notice] 38#38: exiting
+2023/01/30 19:44:17 [notice] 38#38: exit
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 38
+2023/01/30 19:44:17 [notice] 13#13: worker process 37 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 38 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 35
+2023/01/30 19:44:17 [notice] 13#13: worker process 35 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 34
+2023/01/30 19:44:17 [notice] 13#13: worker process 34 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 36 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 36
+I0130 19:44:17.620255       1 event.go:278] Event(v1.ObjectReference{Kind:"Secret", Namespace:"default", Name:"default-server-secret", UID:"3e132d2a-ca33-4459-b3d2-6e21efa677bc", APIVersion:"v1", ResourceVersion:"517", FieldPath:""}): type: 'Normal' reason: 'Updated' the special Secret default/default-server-secret was updated
+2023/01/30 19:44:17 [notice] 47#47: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 47, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 48
+2023/01/30 19:44:17 [notice] 13#13: start worker process 49
+2023/01/30 19:44:17 [notice] 13#13: start worker process 50
+2023/01/30 19:44:17 [notice] 13#13: start worker process 51
+2023/01/30 19:44:17 [notice] 13#13: start worker process 52
+2023/01/30 19:44:17 [notice] 42#42: gracefully shutting down
+2023/01/30 19:44:17 [notice] 41#41: gracefully shutting down
+2023/01/30 19:44:17 [notice] 41#41: exiting
+2023/01/30 19:44:17 [notice] 41#41: exit
+2023/01/30 19:44:17 [notice] 42#42: exiting
+2023/01/30 19:44:17 [notice] 43#43: gracefully shutting down
+2023/01/30 19:44:17 [notice] 43#43: exiting
+2023/01/30 19:44:17 [notice] 42#42: exit
+2023/01/30 19:44:17 [notice] 43#43: exit
+2023/01/30 19:44:17 [notice] 44#44: gracefully shutting down
+2023/01/30 19:44:17 [notice] 45#45: gracefully shutting down
+2023/01/30 19:44:17 [notice] 45#45: exiting
+2023/01/30 19:44:17 [notice] 44#44: exiting
+2023/01/30 19:44:17 [notice] 44#44: exit
+2023/01/30 19:44:17 [notice] 45#45: exit
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 42
+2023/01/30 19:44:17 [notice] 13#13: worker process 42 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 43 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 43
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 45
+2023/01/30 19:44:17 [notice] 13#13: worker process 41 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 44 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 45 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:44:17.763580       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+W0130 19:44:17.763671       1 controller.go:1803] Error retrieving endpoints for the service kube-znn: No endpoints for target port 80 in service kube-znn
+2023/01/30 19:44:17 [notice] 54#54: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 54, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 55
+2023/01/30 19:44:17 [notice] 13#13: start worker process 56
+2023/01/30 19:44:17 [notice] 13#13: start worker process 57
+2023/01/30 19:44:17 [notice] 13#13: start worker process 58
+2023/01/30 19:44:17 [notice] 13#13: start worker process 59
+2023/01/30 19:44:17 [notice] 48#48: gracefully shutting down
+2023/01/30 19:44:17 [notice] 52#52: gracefully shutting down
+2023/01/30 19:44:17 [notice] 50#50: gracefully shutting down
+2023/01/30 19:44:17 [notice] 52#52: exiting
+2023/01/30 19:44:17 [notice] 48#48: exiting
+2023/01/30 19:44:17 [notice] 50#50: exiting
+2023/01/30 19:44:17 [notice] 52#52: exit
+2023/01/30 19:44:17 [notice] 48#48: exit
+2023/01/30 19:44:17 [notice] 50#50: exit
+2023/01/30 19:44:17 [notice] 51#51: gracefully shutting down
+2023/01/30 19:44:17 [notice] 51#51: exiting
+2023/01/30 19:44:17 [notice] 49#49: gracefully shutting down
+2023/01/30 19:44:17 [notice] 49#49: exiting
+2023/01/30 19:44:17 [notice] 49#49: exit
+2023/01/30 19:44:17 [notice] 51#51: exit
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 48
+2023/01/30 19:44:17 [notice] 13#13: worker process 48 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 49 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 50 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: worker process 52 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:17 [notice] 13#13: signal 17 (SIGCHLD) received from 51
+2023/01/30 19:44:17 [notice] 13#13: worker process 51 exited with code 0
+2023/01/30 19:44:17 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:44:17.906393       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+W0130 19:44:17.906452       1 controller.go:1803] Error retrieving endpoints for the service kube-znn: No endpoints for target port 80 in service kube-znn
+2023/01/30 19:44:17 [notice] 61#61: signal process started
+2023/01/30 19:44:17 [notice] 13#13: signal 1 (SIGHUP) received from 61, reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: reconfiguring
+2023/01/30 19:44:17 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:44:17 [notice] 13#13: start worker processes
+2023/01/30 19:44:17 [notice] 13#13: start worker process 62
+2023/01/30 19:44:17 [notice] 13#13: start worker process 63
+2023/01/30 19:44:17 [notice] 13#13: start worker process 64
+2023/01/30 19:44:17 [notice] 13#13: start worker process 65
+2023/01/30 19:44:17 [notice] 13#13: start worker process 66
+2023/01/30 19:44:18 [notice] 55#55: gracefully shutting down
+2023/01/30 19:44:18 [notice] 56#56: gracefully shutting down
+2023/01/30 19:44:18 [notice] 55#55: exiting
+2023/01/30 19:44:18 [notice] 58#58: gracefully shutting down
+2023/01/30 19:44:18 [notice] 58#58: exiting
+2023/01/30 19:44:18 [notice] 57#57: gracefully shutting down
+2023/01/30 19:44:18 [notice] 57#57: exiting
+2023/01/30 19:44:18 [notice] 55#55: exit
+2023/01/30 19:44:18 [notice] 58#58: exit
+2023/01/30 19:44:18 [notice] 56#56: exiting
+2023/01/30 19:44:18 [notice] 57#57: exit
+2023/01/30 19:44:18 [notice] 56#56: exit
+2023/01/30 19:44:18 [notice] 59#59: gracefully shutting down
+2023/01/30 19:44:18 [notice] 59#59: exiting
+2023/01/30 19:44:18 [notice] 59#59: exit
+2023/01/30 19:44:18 [notice] 13#13: signal 17 (SIGCHLD) received from 55
+2023/01/30 19:44:18 [notice] 13#13: worker process 55 exited with code 0
+2023/01/30 19:44:18 [notice] 13#13: worker process 57 exited with code 0
+2023/01/30 19:44:18 [notice] 13#13: worker process 58 exited with code 0
+2023/01/30 19:44:18 [notice] 13#13: worker process 59 exited with code 0
+2023/01/30 19:44:18 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:44:18 [notice] 13#13: signal 17 (SIGCHLD) received from 59
+2023/01/30 19:44:18 [notice] 13#13: worker process 56 exited with code 0
+2023/01/30 19:44:18 [notice] 13#13: signal 29 (SIGIO) received
+I0130 19:44:18.048694       1 event.go:278] Event(v1.ObjectReference{Kind:"Ingress", Namespace:"default", Name:"failuremanager-ingress", UID:"ae78f5b9-96e7-4471-9f7a-7a65607f555d", APIVersion:"extensions/v1beta1", ResourceVersion:"695", FieldPath:""}): type: 'Normal' reason: 'Updated' Configuration for default/failuremanager-ingress was updated 
+I0130 19:44:18.048759       1 event.go:278] Event(v1.ObjectReference{Kind:"Ingress", Namespace:"default", Name:"ingress-kube-znn", UID:"7419a6d7-79df-4c56-9d0d-83313e3ff773", APIVersion:"extensions/v1beta1", ResourceVersion:"506", FieldPath:""}): type: 'Normal' reason: 'Updated' Configuration for default/ingress-kube-znn was updated 
+I0130 19:44:18.048775       1 event.go:278] Event(v1.ObjectReference{Kind:"ConfigMap", Namespace:"default", Name:"nginx-config", UID:"6a495b13-4aeb-4c3c-aefb-853b51c1931c", APIVersion:"v1", ResourceVersion:"521", FieldPath:""}): type: 'Normal' reason: 'Updated' Configuration from default/nginx-config was updated 
+W0130 19:45:44.979522       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:45:44 [notice] 68#68: signal process started
+2023/01/30 19:45:44 [notice] 13#13: signal 1 (SIGHUP) received from 68, reconfiguring
+2023/01/30 19:45:44 [notice] 13#13: reconfiguring
+2023/01/30 19:45:44 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:45:44 [notice] 13#13: start worker processes
+2023/01/30 19:45:44 [notice] 13#13: start worker process 69
+2023/01/30 19:45:44 [notice] 13#13: start worker process 70
+2023/01/30 19:45:44 [notice] 13#13: start worker process 71
+2023/01/30 19:45:44 [notice] 13#13: start worker process 72
+2023/01/30 19:45:44 [notice] 13#13: start worker process 73
+2023/01/30 19:45:45 [notice] 62#62: gracefully shutting down
+2023/01/30 19:45:45 [notice] 63#63: gracefully shutting down
+2023/01/30 19:45:45 [notice] 64#64: gracefully shutting down
+2023/01/30 19:45:45 [notice] 66#66: gracefully shutting down
+2023/01/30 19:45:45 [notice] 63#63: exiting
+2023/01/30 19:45:45 [notice] 64#64: exiting
+2023/01/30 19:45:45 [notice] 66#66: exiting
+2023/01/30 19:45:45 [notice] 62#62: exiting
+2023/01/30 19:45:45 [notice] 66#66: exit
+2023/01/30 19:45:45 [notice] 63#63: exit
+2023/01/30 19:45:45 [notice] 62#62: exit
+2023/01/30 19:45:45 [notice] 64#64: exit
+2023/01/30 19:45:45 [notice] 65#65: gracefully shutting down
+2023/01/30 19:45:45 [notice] 65#65: exiting
+2023/01/30 19:45:45 [notice] 65#65: exit
+2023/01/30 19:45:45 [notice] 13#13: signal 17 (SIGCHLD) received from 65
+2023/01/30 19:45:45 [notice] 13#13: worker process 64 exited with code 0
+2023/01/30 19:45:45 [notice] 13#13: worker process 65 exited with code 0
+2023/01/30 19:45:45 [notice] 13#13: worker process 66 exited with code 0
+2023/01/30 19:45:45 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:45:45 [notice] 13#13: signal 17 (SIGCHLD) received from 64
+2023/01/30 19:45:45 [notice] 13#13: signal 17 (SIGCHLD) received from 62
+2023/01/30 19:45:45 [notice] 13#13: worker process 62 exited with code 0
+2023/01/30 19:45:45 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:45:45 [notice] 13#13: signal 17 (SIGCHLD) received from 63
+2023/01/30 19:45:45 [notice] 13#13: worker process 63 exited with code 0
+2023/01/30 19:45:45 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:47:24 [notice] 75#75: signal process started
+2023/01/30 19:47:24 [notice] 13#13: signal 1 (SIGHUP) received from 75, reconfiguring
+2023/01/30 19:47:24 [notice] 13#13: reconfiguring
+2023/01/30 19:47:24 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:47:24 [notice] 13#13: start worker processes
+2023/01/30 19:47:24 [notice] 13#13: start worker process 76
+2023/01/30 19:47:24 [notice] 13#13: start worker process 77
+2023/01/30 19:47:24 [notice] 13#13: start worker process 78
+2023/01/30 19:47:24 [notice] 13#13: start worker process 79
+2023/01/30 19:47:24 [notice] 13#13: start worker process 80
+2023/01/30 19:47:24 [notice] 69#69: gracefully shutting down
+2023/01/30 19:47:24 [notice] 70#70: gracefully shutting down
+2023/01/30 19:47:24 [notice] 70#70: exiting
+2023/01/30 19:47:24 [notice] 73#73: gracefully shutting down
+2023/01/30 19:47:24 [notice] 72#72: gracefully shutting down
+2023/01/30 19:47:24 [notice] 73#73: exiting
+2023/01/30 19:47:24 [notice] 69#69: exiting
+2023/01/30 19:47:24 [notice] 72#72: exiting
+2023/01/30 19:47:24 [notice] 70#70: exit
+2023/01/30 19:47:24 [notice] 71#71: gracefully shutting down
+2023/01/30 19:47:24 [notice] 71#71: exiting
+2023/01/30 19:47:24 [notice] 69#69: exit
+2023/01/30 19:47:24 [notice] 73#73: exit
+2023/01/30 19:47:24 [notice] 71#71: exit
+2023/01/30 19:47:24 [notice] 72#72: exit
+2023/01/30 19:47:24 [notice] 13#13: signal 17 (SIGCHLD) received from 69
+2023/01/30 19:47:24 [notice] 13#13: worker process 69 exited with code 0
+2023/01/30 19:47:24 [notice] 13#13: worker process 70 exited with code 0
+2023/01/30 19:47:24 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:47:24 [notice] 13#13: signal 17 (SIGCHLD) received from 71
+2023/01/30 19:47:24 [notice] 13#13: worker process 71 exited with code 0
+2023/01/30 19:47:24 [notice] 13#13: worker process 73 exited with code 0
+2023/01/30 19:47:24 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:47:24 [notice] 13#13: signal 17 (SIGCHLD) received from 72
+2023/01/30 19:47:24 [notice] 13#13: worker process 72 exited with code 0
+2023/01/30 19:47:24 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:48:25.484284       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:48:25 [notice] 82#82: signal process started
+2023/01/30 19:48:25 [notice] 13#13: signal 1 (SIGHUP) received from 82, reconfiguring
+2023/01/30 19:48:25 [notice] 13#13: reconfiguring
+2023/01/30 19:48:25 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:48:25 [notice] 13#13: start worker processes
+2023/01/30 19:48:25 [notice] 13#13: start worker process 83
+2023/01/30 19:48:25 [notice] 13#13: start worker process 84
+2023/01/30 19:48:25 [notice] 13#13: start worker process 85
+2023/01/30 19:48:25 [notice] 13#13: start worker process 86
+2023/01/30 19:48:25 [notice] 13#13: start worker process 87
+2023/01/30 19:48:25 [notice] 76#76: gracefully shutting down
+2023/01/30 19:48:25 [notice] 77#77: gracefully shutting down
+2023/01/30 19:48:25 [notice] 79#79: gracefully shutting down
+2023/01/30 19:48:25 [notice] 78#78: gracefully shutting down
+2023/01/30 19:48:25 [notice] 77#77: exiting
+2023/01/30 19:48:25 [notice] 79#79: exiting
+2023/01/30 19:48:25 [notice] 76#76: exiting
+2023/01/30 19:48:25 [notice] 78#78: exiting
+2023/01/30 19:48:25 [notice] 79#79: exit
+2023/01/30 19:48:25 [notice] 76#76: exit
+2023/01/30 19:48:25 [notice] 78#78: exit
+2023/01/30 19:48:25 [notice] 77#77: exit
+2023/01/30 19:48:25 [notice] 80#80: gracefully shutting down
+2023/01/30 19:48:25 [notice] 80#80: exiting
+2023/01/30 19:48:25 [notice] 80#80: exit
+2023/01/30 19:48:25 [notice] 13#13: signal 17 (SIGCHLD) received from 76
+2023/01/30 19:48:25 [notice] 13#13: worker process 76 exited with code 0
+2023/01/30 19:48:25 [notice] 13#13: worker process 77 exited with code 0
+2023/01/30 19:48:25 [notice] 13#13: worker process 78 exited with code 0
+2023/01/30 19:48:25 [notice] 13#13: worker process 79 exited with code 0
+2023/01/30 19:48:25 [notice] 13#13: worker process 80 exited with code 0
+2023/01/30 19:48:25 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:48:25 [notice] 13#13: signal 17 (SIGCHLD) received from 80
+2023/01/30 19:48:53 [warn] 83#83: *18 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:48:53 [warn] 83#83: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:53 +0000] "GET /news.php HTTP/1.1" 200 1062596 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:53 +0000] "GET /news.php HTTP/1.1" 200 1061024 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:53 +0000] "GET /news.php HTTP/1.1" 200 1061286 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:48:53 [warn] 83#83: *18 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:53 +0000] "GET /news.php HTTP/1.1" 200 1062582 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:55 +0000] "GET /news.php HTTP/1.1" 200 1061914 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:55 +0000] "GET /news.php HTTP/1.1" 200 1061437 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:48:55 [warn] 83#83: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:55 +0000] "GET /news.php HTTP/1.1" 200 1062230 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:55 +0000] "GET /news.php HTTP/1.1" 200 1063116 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:57 +0000] "GET /news.php HTTP/1.1" 200 1062574 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:57 +0000] "GET /news.php HTTP/1.1" 200 1063072 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:48:57 [warn] 83#83: *18 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:57 +0000] "GET /news.php HTTP/1.1" 200 1062779 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:57 +0000] "GET /news.php HTTP/1.1" 200 1063317 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:48:59 [warn] 83#83: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/00/0000000006 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:59 +0000] "GET /news.php HTTP/1.1" 200 1062837 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:48:59 [warn] 83#83: *18 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/00/0000000007 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:48:59 +0000] "GET /news.php HTTP/1.1" 200 1061141 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:59 +0000] "GET /news.php HTTP/1.1" 200 1063364 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:48:59 +0000] "GET /news.php HTTP/1.1" 200 1061310 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:01 +0000] "GET /news.php HTTP/1.1" 200 1062697 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:01 +0000] "GET /news.php HTTP/1.1" 200 1062156 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:01 +0000] "GET /news.php HTTP/1.1" 200 1061823 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:01 +0000] "GET /news.php HTTP/1.1" 200 1063339 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:03 +0000] "GET /news.php HTTP/1.1" 200 1061845 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:03 +0000] "GET /news.php HTTP/1.1" 200 1061445 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:03 +0000] "GET /news.php HTTP/1.1" 200 1063359 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:03 +0000] "GET /news.php HTTP/1.1" 200 1061851 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:05 +0000] "GET /news.php HTTP/1.1" 200 1061815 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:05 +0000] "GET /news.php HTTP/1.1" 200 1061348 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:05 [warn] 83#83: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/00/0000000008 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:05 +0000] "GET /news.php HTTP/1.1" 200 1061478 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:05 [warn] 83#83: *18 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/00/0000000009 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:05 +0000] "GET /news.php HTTP/1.1" 200 1062788 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:05.515833       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:05 [notice] 89#89: signal process started
+2023/01/30 19:49:05 [notice] 13#13: signal 1 (SIGHUP) received from 89, reconfiguring
+2023/01/30 19:49:05 [notice] 13#13: reconfiguring
+2023/01/30 19:49:05 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:05 [notice] 13#13: start worker processes
+2023/01/30 19:49:05 [notice] 13#13: start worker process 90
+2023/01/30 19:49:05 [notice] 13#13: start worker process 91
+2023/01/30 19:49:05 [notice] 13#13: start worker process 92
+2023/01/30 19:49:05 [notice] 13#13: start worker process 93
+2023/01/30 19:49:05 [notice] 13#13: start worker process 94
+2023/01/30 19:49:05 [notice] 83#83: gracefully shutting down
+2023/01/30 19:49:05 [notice] 84#84: gracefully shutting down
+2023/01/30 19:49:05 [notice] 84#84: exiting
+2023/01/30 19:49:05 [notice] 86#86: gracefully shutting down
+2023/01/30 19:49:05 [notice] 85#85: gracefully shutting down
+2023/01/30 19:49:05 [notice] 86#86: exiting
+2023/01/30 19:49:05 [notice] 87#87: gracefully shutting down
+2023/01/30 19:49:05 [notice] 85#85: exiting
+2023/01/30 19:49:05 [notice] 87#87: exiting
+2023/01/30 19:49:05 [notice] 86#86: exit
+2023/01/30 19:49:05 [notice] 85#85: exit
+2023/01/30 19:49:05 [notice] 87#87: exit
+2023/01/30 19:49:05 [notice] 84#84: exit
+2023/01/30 19:49:05 [notice] 83#83: exiting
+2023/01/30 19:49:05 [notice] 83#83: exit
+2023/01/30 19:49:05 [notice] 13#13: signal 17 (SIGCHLD) received from 84
+2023/01/30 19:49:05 [notice] 13#13: worker process 84 exited with code 0
+2023/01/30 19:49:05 [notice] 13#13: worker process 86 exited with code 0
+2023/01/30 19:49:05 [notice] 13#13: worker process 85 exited with code 0
+2023/01/30 19:49:05 [notice] 13#13: worker process 87 exited with code 0
+2023/01/30 19:49:05 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:05 [notice] 13#13: signal 17 (SIGCHLD) received from 86
+2023/01/30 19:49:05 [notice] 13#13: signal 17 (SIGCHLD) received from 83
+2023/01/30 19:49:05 [notice] 13#13: worker process 83 exited with code 0
+2023/01/30 19:49:05 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:07 [warn] 90#90: *51 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/01/0000000010 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:49:07 [warn] 90#90: *50 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/01/0000000011 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:07 +0000] "GET /news.php HTTP/1.1" 200 1062034 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:07 +0000] "GET /news.php HTTP/1.1" 200 1060563 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:07 +0000] "GET /news.php HTTP/1.1" 200 1061617 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:07 +0000] "GET /news.php HTTP/1.1" 200 1061836 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:09 +0000] "GET /news.php HTTP/1.1" 200 1061826 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:09 +0000] "GET /news.php HTTP/1.1" 200 1061729 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:09 +0000] "GET /news.php HTTP/1.1" 200 1061303 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:09 +0000] "GET /news.php HTTP/1.1" 200 1062254 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:09.616346       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:09 [notice] 96#96: signal process started
+2023/01/30 19:49:09 [notice] 13#13: signal 1 (SIGHUP) received from 96, reconfiguring
+2023/01/30 19:49:09 [notice] 13#13: reconfiguring
+2023/01/30 19:49:09 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:09 [notice] 13#13: start worker processes
+2023/01/30 19:49:09 [notice] 13#13: start worker process 97
+2023/01/30 19:49:09 [notice] 13#13: start worker process 98
+2023/01/30 19:49:09 [notice] 13#13: start worker process 99
+2023/01/30 19:49:09 [notice] 13#13: start worker process 100
+2023/01/30 19:49:09 [notice] 13#13: start worker process 101
+2023/01/30 19:49:09 [notice] 90#90: gracefully shutting down
+2023/01/30 19:49:09 [notice] 91#91: gracefully shutting down
+2023/01/30 19:49:09 [notice] 92#92: gracefully shutting down
+2023/01/30 19:49:09 [notice] 91#91: exiting
+2023/01/30 19:49:09 [notice] 93#93: gracefully shutting down
+2023/01/30 19:49:09 [notice] 93#93: exiting
+2023/01/30 19:49:09 [notice] 90#90: exiting
+2023/01/30 19:49:09 [notice] 92#92: exiting
+2023/01/30 19:49:09 [notice] 90#90: exit
+2023/01/30 19:49:09 [notice] 93#93: exit
+2023/01/30 19:49:09 [notice] 91#91: exit
+2023/01/30 19:49:09 [notice] 94#94: gracefully shutting down
+2023/01/30 19:49:09 [notice] 92#92: exit
+2023/01/30 19:49:09 [notice] 94#94: exiting
+2023/01/30 19:49:09 [notice] 94#94: exit
+2023/01/30 19:49:09 [notice] 13#13: signal 17 (SIGCHLD) received from 93
+2023/01/30 19:49:09 [notice] 13#13: worker process 91 exited with code 0
+2023/01/30 19:49:09 [notice] 13#13: worker process 93 exited with code 0
+2023/01/30 19:49:09 [notice] 13#13: worker process 94 exited with code 0
+2023/01/30 19:49:09 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:09 [notice] 13#13: signal 17 (SIGCHLD) received from 90
+2023/01/30 19:49:09 [notice] 13#13: worker process 90 exited with code 0
+2023/01/30 19:49:09 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:09 [notice] 13#13: signal 17 (SIGCHLD) received from 92
+2023/01/30 19:49:09 [notice] 13#13: worker process 92 exited with code 0
+2023/01/30 19:49:09 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:11 [warn] 97#97: *61 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/01/0000000012 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:11 +0000] "GET /news.php HTTP/1.1" 200 1061947 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:11 [warn] 97#97: *62 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/01/0000000013 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:11 +0000] "GET /news.php HTTP/1.1" 200 1062678 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:11 +0000] "GET /news.php HTTP/1.1" 200 1063456 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:11 +0000] "GET /news.php HTTP/1.1" 200 1061335 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:12.064335       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:12 [notice] 103#103: signal process started
+2023/01/30 19:49:12 [notice] 13#13: signal 1 (SIGHUP) received from 103, reconfiguring
+2023/01/30 19:49:12 [notice] 13#13: reconfiguring
+2023/01/30 19:49:12 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:12 [notice] 13#13: start worker processes
+2023/01/30 19:49:12 [notice] 13#13: start worker process 104
+2023/01/30 19:49:12 [notice] 13#13: start worker process 105
+2023/01/30 19:49:12 [notice] 13#13: start worker process 106
+2023/01/30 19:49:12 [notice] 13#13: start worker process 107
+2023/01/30 19:49:12 [notice] 13#13: start worker process 108
+2023/01/30 19:49:12 [notice] 97#97: gracefully shutting down
+2023/01/30 19:49:12 [notice] 99#99: gracefully shutting down
+2023/01/30 19:49:12 [notice] 99#99: exiting
+2023/01/30 19:49:12 [notice] 98#98: gracefully shutting down
+2023/01/30 19:49:12 [notice] 98#98: exiting
+2023/01/30 19:49:12 [notice] 99#99: exit
+2023/01/30 19:49:12 [notice] 97#97: exiting
+2023/01/30 19:49:12 [notice] 98#98: exit
+2023/01/30 19:49:12 [notice] 97#97: exit
+2023/01/30 19:49:12 [notice] 101#101: gracefully shutting down
+2023/01/30 19:49:12 [notice] 100#100: gracefully shutting down
+2023/01/30 19:49:12 [notice] 100#100: exiting
+2023/01/30 19:49:12 [notice] 101#101: exiting
+2023/01/30 19:49:12 [notice] 101#101: exit
+2023/01/30 19:49:12 [notice] 100#100: exit
+2023/01/30 19:49:12 [notice] 13#13: signal 17 (SIGCHLD) received from 97
+2023/01/30 19:49:12 [notice] 13#13: worker process 97 exited with code 0
+2023/01/30 19:49:12 [notice] 13#13: worker process 98 exited with code 0
+2023/01/30 19:49:12 [notice] 13#13: worker process 99 exited with code 0
+2023/01/30 19:49:12 [notice] 13#13: worker process 100 exited with code 0
+2023/01/30 19:49:12 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:12 [notice] 13#13: signal 17 (SIGCHLD) received from 98
+2023/01/30 19:49:12 [notice] 13#13: signal 17 (SIGCHLD) received from 101
+2023/01/30 19:49:12 [notice] 13#13: worker process 101 exited with code 0
+2023/01/30 19:49:12 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:13 [warn] 104#104: *71 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/01/0000000014 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:13 +0000] "GET /news.php HTTP/1.1" 200 1060583 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:13 +0000] "GET /news.php HTTP/1.1" 200 1063412 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:13 [warn] 104#104: *69 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/01/0000000015 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:13 +0000] "GET /news.php HTTP/1.1" 200 1061491 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:13 +0000] "GET /news.php HTTP/1.1" 200 1061743 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:14.564260       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:14 [notice] 110#110: signal process started
+2023/01/30 19:49:14 [notice] 13#13: signal 1 (SIGHUP) received from 110, reconfiguring
+2023/01/30 19:49:14 [notice] 13#13: reconfiguring
+2023/01/30 19:49:14 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:14 [notice] 13#13: start worker processes
+2023/01/30 19:49:14 [notice] 13#13: start worker process 111
+2023/01/30 19:49:14 [notice] 13#13: start worker process 112
+2023/01/30 19:49:14 [notice] 13#13: start worker process 113
+2023/01/30 19:49:14 [notice] 13#13: start worker process 114
+2023/01/30 19:49:14 [notice] 13#13: start worker process 115
+2023/01/30 19:49:14 [notice] 106#106: gracefully shutting down
+2023/01/30 19:49:14 [notice] 104#104: gracefully shutting down
+2023/01/30 19:49:14 [notice] 107#107: gracefully shutting down
+2023/01/30 19:49:14 [notice] 108#108: gracefully shutting down
+2023/01/30 19:49:14 [notice] 108#108: exiting
+2023/01/30 19:49:14 [notice] 107#107: exiting
+2023/01/30 19:49:14 [notice] 106#106: exiting
+2023/01/30 19:49:14 [notice] 104#104: exiting
+2023/01/30 19:49:14 [notice] 108#108: exit
+2023/01/30 19:49:14 [notice] 107#107: exit
+2023/01/30 19:49:14 [notice] 106#106: exit
+2023/01/30 19:49:14 [notice] 105#105: gracefully shutting down
+2023/01/30 19:49:14 [notice] 105#105: exiting
+2023/01/30 19:49:14 [notice] 105#105: exit
+2023/01/30 19:49:14 [notice] 104#104: exit
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 104
+2023/01/30 19:49:14 [notice] 13#13: worker process 104 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 106
+2023/01/30 19:49:14 [notice] 13#13: worker process 106 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 107
+2023/01/30 19:49:14 [notice] 13#13: worker process 107 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: worker process 108 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 108
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 105
+2023/01/30 19:49:14 [notice] 13#13: worker process 105 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:49:14.709303       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:14 [notice] 117#117: signal process started
+2023/01/30 19:49:14 [notice] 13#13: signal 1 (SIGHUP) received from 117, reconfiguring
+2023/01/30 19:49:14 [notice] 13#13: reconfiguring
+2023/01/30 19:49:14 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:14 [notice] 13#13: start worker processes
+2023/01/30 19:49:14 [notice] 13#13: start worker process 118
+2023/01/30 19:49:14 [notice] 13#13: start worker process 119
+2023/01/30 19:49:14 [notice] 13#13: start worker process 120
+2023/01/30 19:49:14 [notice] 13#13: start worker process 121
+2023/01/30 19:49:14 [notice] 13#13: start worker process 122
+2023/01/30 19:49:14 [notice] 111#111: gracefully shutting down
+2023/01/30 19:49:14 [notice] 112#112: gracefully shutting down
+2023/01/30 19:49:14 [notice] 112#112: exiting
+2023/01/30 19:49:14 [notice] 115#115: gracefully shutting down
+2023/01/30 19:49:14 [notice] 111#111: exiting
+2023/01/30 19:49:14 [notice] 115#115: exiting
+2023/01/30 19:49:14 [notice] 113#113: gracefully shutting down
+2023/01/30 19:49:14 [notice] 111#111: exit
+2023/01/30 19:49:14 [notice] 112#112: exit
+2023/01/30 19:49:14 [notice] 115#115: exit
+2023/01/30 19:49:14 [notice] 114#114: gracefully shutting down
+2023/01/30 19:49:14 [notice] 113#113: exiting
+2023/01/30 19:49:14 [notice] 114#114: exiting
+2023/01/30 19:49:14 [notice] 114#114: exit
+2023/01/30 19:49:14 [notice] 113#113: exit
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 113
+2023/01/30 19:49:14 [notice] 13#13: worker process 111 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: worker process 113 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: worker process 114 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: worker process 115 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:14 [notice] 13#13: signal 17 (SIGCHLD) received from 112
+2023/01/30 19:49:14 [notice] 13#13: worker process 112 exited with code 0
+2023/01/30 19:49:14 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:15 [warn] 118#118: *77 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/01/0000000016 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:49:15 [warn] 118#118: *79 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/01/0000000017 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:15 +0000] "GET /news.php HTTP/1.1" 200 1060507 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:15 +0000] "GET /news.php HTTP/1.1" 200 1060374 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:15 +0000] "GET /news.php HTTP/1.1" 200 1061322 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:15 +0000] "GET /news.php HTTP/1.1" 200 1064701 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:17 +0000] "GET /news.php HTTP/1.1" 200 1061279 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:17 [warn] 118#118: *79 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/01/0000000018 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:17 +0000] "GET /news.php HTTP/1.1" 200 1063938 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:17 +0000] "GET /news.php HTTP/1.1" 200 1061587 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:17 +0000] "GET /news.php HTTP/1.1" 200 1061308 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:19 [warn] 118#118: *77 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/01/0000000019 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:19 +0000] "GET /news.php HTTP/1.1" 200 1062402 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:19 +0000] "GET /news.php HTTP/1.1" 200 1061309 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:19 +0000] "GET /news.php HTTP/1.1" 200 1061761 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:19 [warn] 118#118: *77 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/02/0000000020 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:19 +0000] "GET /news.php HTTP/1.1" 200 1061144 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:19.818540       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:19 [notice] 124#124: signal process started
+2023/01/30 19:49:19 [notice] 13#13: signal 1 (SIGHUP) received from 124, reconfiguring
+2023/01/30 19:49:19 [notice] 13#13: reconfiguring
+2023/01/30 19:49:19 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:19 [notice] 13#13: start worker processes
+2023/01/30 19:49:19 [notice] 13#13: start worker process 125
+2023/01/30 19:49:19 [notice] 13#13: start worker process 126
+2023/01/30 19:49:19 [notice] 13#13: start worker process 127
+2023/01/30 19:49:19 [notice] 13#13: start worker process 128
+2023/01/30 19:49:19 [notice] 13#13: start worker process 129
+2023/01/30 19:49:19 [notice] 119#119: gracefully shutting down
+2023/01/30 19:49:19 [notice] 121#121: gracefully shutting down
+2023/01/30 19:49:19 [notice] 120#120: gracefully shutting down
+2023/01/30 19:49:19 [notice] 119#119: exiting
+2023/01/30 19:49:19 [notice] 121#121: exiting
+2023/01/30 19:49:19 [notice] 120#120: exiting
+2023/01/30 19:49:19 [notice] 118#118: gracefully shutting down
+2023/01/30 19:49:19 [notice] 120#120: exit
+2023/01/30 19:49:19 [notice] 119#119: exit
+2023/01/30 19:49:19 [notice] 121#121: exit
+2023/01/30 19:49:19 [notice] 122#122: gracefully shutting down
+2023/01/30 19:49:19 [notice] 118#118: exiting
+2023/01/30 19:49:19 [notice] 122#122: exiting
+2023/01/30 19:49:19 [notice] 118#118: exit
+2023/01/30 19:49:19 [notice] 122#122: exit
+2023/01/30 19:49:19 [notice] 13#13: signal 17 (SIGCHLD) received from 119
+2023/01/30 19:49:19 [notice] 13#13: worker process 119 exited with code 0
+2023/01/30 19:49:19 [notice] 13#13: worker process 120 exited with code 0
+2023/01/30 19:49:19 [notice] 13#13: worker process 122 exited with code 0
+2023/01/30 19:49:19 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:19 [notice] 13#13: signal 17 (SIGCHLD) received from 122
+2023/01/30 19:49:19 [notice] 13#13: signal 17 (SIGCHLD) received from 118
+2023/01/30 19:49:19 [notice] 13#13: worker process 118 exited with code 0
+2023/01/30 19:49:19 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:19 [notice] 13#13: signal 17 (SIGCHLD) received from 121
+2023/01/30 19:49:19 [notice] 13#13: worker process 121 exited with code 0
+2023/01/30 19:49:19 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:49:19.954947       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:19 [notice] 131#131: signal process started
+2023/01/30 19:49:19 [notice] 13#13: signal 1 (SIGHUP) received from 131, reconfiguring
+2023/01/30 19:49:19 [notice] 13#13: reconfiguring
+2023/01/30 19:49:19 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:19 [notice] 13#13: start worker processes
+2023/01/30 19:49:19 [notice] 13#13: start worker process 132
+2023/01/30 19:49:19 [notice] 13#13: start worker process 133
+2023/01/30 19:49:19 [notice] 13#13: start worker process 134
+2023/01/30 19:49:19 [notice] 13#13: start worker process 135
+2023/01/30 19:49:19 [notice] 13#13: start worker process 136
+2023/01/30 19:49:20 [notice] 125#125: gracefully shutting down
+2023/01/30 19:49:20 [notice] 126#126: gracefully shutting down
+2023/01/30 19:49:20 [notice] 128#128: gracefully shutting down
+2023/01/30 19:49:20 [notice] 128#128: exiting
+2023/01/30 19:49:20 [notice] 126#126: exiting
+2023/01/30 19:49:20 [notice] 125#125: exiting
+2023/01/30 19:49:20 [notice] 126#126: exit
+2023/01/30 19:49:20 [notice] 128#128: exit
+2023/01/30 19:49:20 [notice] 125#125: exit
+2023/01/30 19:49:20 [notice] 127#127: gracefully shutting down
+2023/01/30 19:49:20 [notice] 129#129: gracefully shutting down
+2023/01/30 19:49:20 [notice] 129#129: exiting
+2023/01/30 19:49:20 [notice] 127#127: exiting
+2023/01/30 19:49:20 [notice] 127#127: exit
+2023/01/30 19:49:20 [notice] 129#129: exit
+2023/01/30 19:49:20 [notice] 13#13: signal 17 (SIGCHLD) received from 126
+2023/01/30 19:49:20 [notice] 13#13: worker process 126 exited with code 0
+2023/01/30 19:49:20 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:20 [notice] 13#13: signal 17 (SIGCHLD) received from 127
+2023/01/30 19:49:20 [notice] 13#13: worker process 127 exited with code 0
+2023/01/30 19:49:20 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:20 [notice] 13#13: signal 17 (SIGCHLD) received from 128
+2023/01/30 19:49:20 [notice] 13#13: worker process 125 exited with code 0
+2023/01/30 19:49:20 [notice] 13#13: worker process 128 exited with code 0
+2023/01/30 19:49:20 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:20 [notice] 13#13: signal 17 (SIGCHLD) received from 129
+2023/01/30 19:49:20 [notice] 13#13: worker process 129 exited with code 0
+2023/01/30 19:49:20 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:21 [warn] 132#132: *95 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/02/0000000021 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:21 +0000] "GET /news.php HTTP/1.1" 200 1062090 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:21 [warn] 132#132: *94 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/02/0000000022 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:21 +0000] "GET /news.php HTTP/1.1" 200 1063236 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:21 +0000] "GET /news.php HTTP/1.1" 200 1064683 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:21 +0000] "GET /news.php HTTP/1.1" 200 1061333 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:23 [warn] 132#132: *94 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/02/0000000023 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:23 +0000] "GET /news.php HTTP/1.1" 200 1061771 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:23 +0000] "GET /news.php HTTP/1.1" 200 1061029 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:23 [warn] 132#132: *94 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/02/0000000024 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:23 +0000] "GET /news.php HTTP/1.1" 200 1062875 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:23 +0000] "GET /news.php HTTP/1.1" 200 1062257 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:24.922552       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:24 [notice] 138#138: signal process started
+2023/01/30 19:49:24 [notice] 13#13: signal 1 (SIGHUP) received from 138, reconfiguring
+2023/01/30 19:49:24 [notice] 13#13: reconfiguring
+2023/01/30 19:49:24 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:24 [notice] 13#13: start worker processes
+2023/01/30 19:49:24 [notice] 13#13: start worker process 139
+2023/01/30 19:49:24 [notice] 13#13: start worker process 140
+2023/01/30 19:49:24 [notice] 13#13: start worker process 141
+2023/01/30 19:49:24 [notice] 13#13: start worker process 142
+2023/01/30 19:49:24 [notice] 13#13: start worker process 143
+2023/01/30 19:49:25 [notice] 132#132: gracefully shutting down
+2023/01/30 19:49:25 [notice] 133#133: gracefully shutting down
+2023/01/30 19:49:25 [notice] 133#133: exiting
+2023/01/30 19:49:25 [notice] 134#134: gracefully shutting down
+2023/01/30 19:49:25 [notice] 134#134: exiting
+2023/01/30 19:49:25 [notice] 136#136: gracefully shutting down
+2023/01/30 19:49:25 [notice] 136#136: exiting
+2023/01/30 19:49:25 [notice] 132#132: exiting
+2023/01/30 19:49:25 [notice] 135#135: gracefully shutting down
+2023/01/30 19:49:25 [notice] 134#134: exit
+2023/01/30 19:49:25 [notice] 132#132: exit
+2023/01/30 19:49:25 [notice] 135#135: exiting
+2023/01/30 19:49:25 [notice] 136#136: exit
+2023/01/30 19:49:25 [notice] 133#133: exit
+2023/01/30 19:49:25 [notice] 135#135: exit
+2023/01/30 19:49:25 [notice] 13#13: signal 17 (SIGCHLD) received from 135
+2023/01/30 19:49:25 [notice] 13#13: worker process 133 exited with code 0
+2023/01/30 19:49:25 [notice] 13#13: worker process 132 exited with code 0
+2023/01/30 19:49:25 [notice] 13#13: worker process 134 exited with code 0
+2023/01/30 19:49:25 [notice] 13#13: worker process 135 exited with code 0
+2023/01/30 19:49:25 [notice] 13#13: worker process 136 exited with code 0
+2023/01/30 19:49:25 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:25 [notice] 13#13: signal 17 (SIGCHLD) received from 133
+172.17.0.1 - - [30/Jan/2023:19:49:25 +0000] "GET /news.php HTTP/1.1" 200 1061911 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:25 [warn] 139#139: *108 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/02/0000000025 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:25 +0000] "GET /news.php HTTP/1.1" 200 1061391 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:25 [warn] 139#139: *106 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/02/0000000026 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:25 +0000] "GET /news.php HTTP/1.1" 200 1063379 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:25 +0000] "GET /news.php HTTP/1.1" 200 1062415 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:27 +0000] "GET /news.php HTTP/1.1" 200 1061337 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:27 [warn] 139#139: *108 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/02/0000000027 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:27 +0000] "GET /news.php HTTP/1.1" 200 1061843 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:27 [warn] 139#139: *108 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/02/0000000028 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:49:27 [warn] 139#139: *106 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/02/0000000029 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:27 +0000] "GET /news.php HTTP/1.1" 200 1061962 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:27 +0000] "GET /news.php HTTP/1.1" 200 1063546 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:29.179590       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:29 [notice] 145#145: signal process started
+2023/01/30 19:49:29 [notice] 13#13: signal 1 (SIGHUP) received from 145, reconfiguring
+2023/01/30 19:49:29 [notice] 13#13: reconfiguring
+2023/01/30 19:49:29 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:29 [notice] 13#13: start worker processes
+2023/01/30 19:49:29 [notice] 13#13: start worker process 146
+2023/01/30 19:49:29 [notice] 13#13: start worker process 147
+2023/01/30 19:49:29 [notice] 13#13: start worker process 148
+2023/01/30 19:49:29 [notice] 13#13: start worker process 149
+2023/01/30 19:49:29 [notice] 13#13: start worker process 150
+2023/01/30 19:49:29 [notice] 140#140: gracefully shutting down
+2023/01/30 19:49:29 [notice] 139#139: gracefully shutting down
+2023/01/30 19:49:29 [notice] 140#140: exiting
+2023/01/30 19:49:29 [notice] 139#139: exiting
+2023/01/30 19:49:29 [notice] 140#140: exit
+2023/01/30 19:49:29 [notice] 139#139: exit
+2023/01/30 19:49:29 [notice] 141#141: gracefully shutting down
+2023/01/30 19:49:29 [notice] 141#141: exiting
+2023/01/30 19:49:29 [notice] 141#141: exit
+2023/01/30 19:49:29 [notice] 142#142: gracefully shutting down
+2023/01/30 19:49:29 [notice] 142#142: exiting
+2023/01/30 19:49:29 [notice] 142#142: exit
+2023/01/30 19:49:29 [notice] 143#143: gracefully shutting down
+2023/01/30 19:49:29 [notice] 143#143: exiting
+2023/01/30 19:49:29 [notice] 143#143: exit
+2023/01/30 19:49:29 [notice] 13#13: signal 17 (SIGCHLD) received from 139
+2023/01/30 19:49:29 [notice] 13#13: worker process 139 exited with code 0
+2023/01/30 19:49:29 [notice] 13#13: worker process 140 exited with code 0
+2023/01/30 19:49:29 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:29 [notice] 13#13: signal 17 (SIGCHLD) received from 141
+2023/01/30 19:49:29 [notice] 13#13: worker process 141 exited with code 0
+2023/01/30 19:49:29 [notice] 13#13: worker process 142 exited with code 0
+2023/01/30 19:49:29 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:29 [notice] 13#13: signal 17 (SIGCHLD) received from 143
+2023/01/30 19:49:29 [notice] 13#13: worker process 143 exited with code 0
+2023/01/30 19:49:29 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:29 [warn] 149#149: *119 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/03/0000000030 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:29 +0000] "GET /news.php HTTP/1.1" 200 1062987 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:29 +0000] "GET /news.php HTTP/1.1" 200 1060897 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:29 +0000] "GET /news.php HTTP/1.1" 200 1062985 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:29 +0000] "GET /news.php HTTP/1.1" 200 1061587 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:30.337363       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:30 [notice] 152#152: signal process started
+2023/01/30 19:49:30 [notice] 13#13: signal 1 (SIGHUP) received from 152, reconfiguring
+2023/01/30 19:49:30 [notice] 13#13: reconfiguring
+2023/01/30 19:49:30 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:30 [notice] 13#13: start worker processes
+2023/01/30 19:49:30 [notice] 13#13: start worker process 153
+2023/01/30 19:49:30 [notice] 13#13: start worker process 154
+2023/01/30 19:49:30 [notice] 13#13: start worker process 155
+2023/01/30 19:49:30 [notice] 13#13: start worker process 156
+2023/01/30 19:49:30 [notice] 13#13: start worker process 157
+2023/01/30 19:49:30 [notice] 146#146: gracefully shutting down
+2023/01/30 19:49:30 [notice] 147#147: gracefully shutting down
+2023/01/30 19:49:30 [notice] 146#146: exiting
+2023/01/30 19:49:30 [notice] 150#150: gracefully shutting down
+2023/01/30 19:49:30 [notice] 147#147: exiting
+2023/01/30 19:49:30 [notice] 148#148: gracefully shutting down
+2023/01/30 19:49:30 [notice] 150#150: exiting
+2023/01/30 19:49:30 [notice] 148#148: exiting
+2023/01/30 19:49:30 [notice] 146#146: exit
+2023/01/30 19:49:30 [notice] 150#150: exit
+2023/01/30 19:49:30 [notice] 147#147: exit
+2023/01/30 19:49:30 [notice] 148#148: exit
+2023/01/30 19:49:30 [notice] 149#149: gracefully shutting down
+2023/01/30 19:49:30 [notice] 149#149: exiting
+2023/01/30 19:49:30 [notice] 149#149: exit
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 147
+2023/01/30 19:49:30 [notice] 13#13: worker process 147 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 146
+2023/01/30 19:49:30 [notice] 13#13: worker process 146 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 149
+2023/01/30 19:49:30 [notice] 13#13: worker process 149 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: worker process 150 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 148
+2023/01/30 19:49:30 [notice] 13#13: worker process 148 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:49:30.590257       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:30 [notice] 159#159: signal process started
+2023/01/30 19:49:30 [notice] 13#13: signal 1 (SIGHUP) received from 159, reconfiguring
+2023/01/30 19:49:30 [notice] 13#13: reconfiguring
+2023/01/30 19:49:30 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:30 [notice] 13#13: start worker processes
+2023/01/30 19:49:30 [notice] 13#13: start worker process 160
+2023/01/30 19:49:30 [notice] 13#13: start worker process 161
+2023/01/30 19:49:30 [notice] 13#13: start worker process 162
+2023/01/30 19:49:30 [notice] 13#13: start worker process 163
+2023/01/30 19:49:30 [notice] 13#13: start worker process 164
+2023/01/30 19:49:30 [notice] 153#153: gracefully shutting down
+2023/01/30 19:49:30 [notice] 154#154: gracefully shutting down
+2023/01/30 19:49:30 [notice] 156#156: gracefully shutting down
+2023/01/30 19:49:30 [notice] 154#154: exiting
+2023/01/30 19:49:30 [notice] 156#156: exiting
+2023/01/30 19:49:30 [notice] 155#155: gracefully shutting down
+2023/01/30 19:49:30 [notice] 153#153: exiting
+2023/01/30 19:49:30 [notice] 155#155: exiting
+2023/01/30 19:49:30 [notice] 154#154: exit
+2023/01/30 19:49:30 [notice] 153#153: exit
+2023/01/30 19:49:30 [notice] 156#156: exit
+2023/01/30 19:49:30 [notice] 155#155: exit
+2023/01/30 19:49:30 [notice] 157#157: gracefully shutting down
+2023/01/30 19:49:30 [notice] 157#157: exiting
+2023/01/30 19:49:30 [notice] 157#157: exit
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 154
+2023/01/30 19:49:30 [notice] 13#13: worker process 153 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: worker process 154 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: worker process 155 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:30 [notice] 13#13: signal 17 (SIGCHLD) received from 157
+2023/01/30 19:49:30 [notice] 13#13: worker process 156 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: worker process 157 exited with code 0
+2023/01/30 19:49:30 [notice] 13#13: signal 29 (SIGIO) received
+172.17.0.1 - - [30/Jan/2023:19:49:31 +0000] "GET /news.php HTTP/1.1" 200 1061846 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:31 +0000] "GET /news.php HTTP/1.1" 200 1063822 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:31 +0000] "GET /news.php HTTP/1.1" 200 1061303 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:31 +0000] "GET /news.php HTTP/1.1" 200 1061309 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:32.556318       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:32 [notice] 166#166: signal process started
+2023/01/30 19:49:32 [notice] 13#13: signal 1 (SIGHUP) received from 166, reconfiguring
+2023/01/30 19:49:32 [notice] 13#13: reconfiguring
+2023/01/30 19:49:32 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:32 [notice] 13#13: start worker processes
+2023/01/30 19:49:32 [notice] 13#13: start worker process 167
+2023/01/30 19:49:32 [notice] 13#13: start worker process 168
+2023/01/30 19:49:32 [notice] 13#13: start worker process 169
+2023/01/30 19:49:32 [notice] 13#13: start worker process 170
+2023/01/30 19:49:32 [notice] 13#13: start worker process 171
+2023/01/30 19:49:32 [notice] 163#163: gracefully shutting down
+2023/01/30 19:49:32 [notice] 162#162: gracefully shutting down
+2023/01/30 19:49:32 [notice] 160#160: gracefully shutting down
+2023/01/30 19:49:32 [notice] 162#162: exiting
+2023/01/30 19:49:32 [notice] 163#163: exiting
+2023/01/30 19:49:32 [notice] 163#163: exit
+2023/01/30 19:49:32 [notice] 160#160: exiting
+2023/01/30 19:49:32 [notice] 160#160: exit
+2023/01/30 19:49:32 [notice] 162#162: exit
+2023/01/30 19:49:32 [notice] 161#161: gracefully shutting down
+2023/01/30 19:49:32 [notice] 161#161: exiting
+2023/01/30 19:49:32 [notice] 161#161: exit
+2023/01/30 19:49:32 [notice] 164#164: gracefully shutting down
+2023/01/30 19:49:32 [notice] 164#164: exiting
+2023/01/30 19:49:32 [notice] 164#164: exit
+2023/01/30 19:49:32 [notice] 13#13: signal 17 (SIGCHLD) received from 161
+2023/01/30 19:49:32 [notice] 13#13: worker process 161 exited with code 0
+2023/01/30 19:49:32 [notice] 13#13: worker process 163 exited with code 0
+2023/01/30 19:49:32 [notice] 13#13: worker process 164 exited with code 0
+2023/01/30 19:49:32 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:32 [notice] 13#13: signal 17 (SIGCHLD) received from 160
+2023/01/30 19:49:32 [notice] 13#13: worker process 160 exited with code 0
+2023/01/30 19:49:32 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:32 [notice] 13#13: signal 17 (SIGCHLD) received from 162
+2023/01/30 19:49:32 [notice] 13#13: worker process 162 exited with code 0
+2023/01/30 19:49:32 [notice] 13#13: signal 29 (SIGIO) received
+172.17.0.1 - - [30/Jan/2023:19:49:33 +0000] "GET /news.php HTTP/1.1" 200 1061328 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:33 +0000] "GET /news.php HTTP/1.1" 200 1063302 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:33 [warn] 167#167: *135 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/03/0000000031 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.18:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:33 +0000] "GET /news.php HTTP/1.1" 200 1061268 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:33 +0000] "GET /news.php HTTP/1.1" 200 1061194 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:34.726825       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:34 [notice] 173#173: signal process started
+2023/01/30 19:49:34 [notice] 13#13: signal 1 (SIGHUP) received from 173, reconfiguring
+2023/01/30 19:49:34 [notice] 13#13: reconfiguring
+2023/01/30 19:49:34 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:34 [notice] 13#13: start worker processes
+2023/01/30 19:49:34 [notice] 13#13: start worker process 174
+2023/01/30 19:49:34 [notice] 13#13: start worker process 175
+2023/01/30 19:49:34 [notice] 13#13: start worker process 176
+2023/01/30 19:49:34 [notice] 13#13: start worker process 177
+2023/01/30 19:49:34 [notice] 13#13: start worker process 178
+2023/01/30 19:49:34 [notice] 167#167: gracefully shutting down
+2023/01/30 19:49:34 [notice] 168#168: gracefully shutting down
+2023/01/30 19:49:34 [notice] 170#170: gracefully shutting down
+2023/01/30 19:49:34 [notice] 168#168: exiting
+2023/01/30 19:49:34 [notice] 170#170: exiting
+2023/01/30 19:49:34 [notice] 169#169: gracefully shutting down
+2023/01/30 19:49:34 [notice] 169#169: exiting
+2023/01/30 19:49:34 [notice] 167#167: exiting
+2023/01/30 19:49:34 [notice] 170#170: exit
+2023/01/30 19:49:34 [notice] 169#169: exit
+2023/01/30 19:49:34 [notice] 167#167: exit
+2023/01/30 19:49:34 [notice] 168#168: exit
+2023/01/30 19:49:34 [notice] 171#171: gracefully shutting down
+2023/01/30 19:49:34 [notice] 171#171: exiting
+2023/01/30 19:49:34 [notice] 171#171: exit
+2023/01/30 19:49:34 [notice] 13#13: signal 17 (SIGCHLD) received from 170
+2023/01/30 19:49:34 [notice] 13#13: worker process 170 exited with code 0
+2023/01/30 19:49:34 [notice] 13#13: worker process 171 exited with code 0
+2023/01/30 19:49:34 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:34 [notice] 13#13: signal 17 (SIGCHLD) received from 169
+2023/01/30 19:49:34 [notice] 13#13: worker process 167 exited with code 0
+2023/01/30 19:49:34 [notice] 13#13: worker process 169 exited with code 0
+2023/01/30 19:49:34 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:34 [notice] 13#13: signal 17 (SIGCHLD) received from 167
+2023/01/30 19:49:34 [notice] 13#13: worker process 168 exited with code 0
+2023/01/30 19:49:34 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:35 [warn] 174#174: *141 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/03/0000000032 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.19:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:35 +0000] "GET /news.php HTTP/1.1" 200 1061838 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:35 +0000] "GET /news.php HTTP/1.1" 200 1062909 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:35 +0000] "GET /news.php HTTP/1.1" 200 1063061 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:35 +0000] "GET /news.php HTTP/1.1" 200 1061862 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:37 [warn] 174#174: *141 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/03/0000000033 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:37 +0000] "GET /news.php HTTP/1.1" 200 1062347 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:37 [warn] 174#174: *142 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/03/0000000034 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.18:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:37 +0000] "GET /news.php HTTP/1.1" 200 1064601 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:37 +0000] "GET /news.php HTTP/1.1" 200 1064089 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:37 [warn] 174#174: *142 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/03/0000000035 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:37 +0000] "GET /news.php HTTP/1.1" 200 1062765 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:39 +0000] "GET /news.php HTTP/1.1" 200 1062157 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:39 +0000] "GET /news.php HTTP/1.1" 200 1061669 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:39 +0000] "GET /news.php HTTP/1.1" 200 1061936 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:39 +0000] "GET /news.php HTTP/1.1" 200 1061504 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:40.297981       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:40 [notice] 180#180: signal process started
+2023/01/30 19:49:40 [notice] 13#13: signal 1 (SIGHUP) received from 180, reconfiguring
+2023/01/30 19:49:40 [notice] 13#13: reconfiguring
+2023/01/30 19:49:40 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:40 [notice] 13#13: start worker processes
+2023/01/30 19:49:40 [notice] 13#13: start worker process 181
+2023/01/30 19:49:40 [notice] 13#13: start worker process 182
+2023/01/30 19:49:40 [notice] 13#13: start worker process 183
+2023/01/30 19:49:40 [notice] 13#13: start worker process 184
+2023/01/30 19:49:40 [notice] 13#13: start worker process 185
+2023/01/30 19:49:40 [notice] 174#174: gracefully shutting down
+2023/01/30 19:49:40 [notice] 175#175: gracefully shutting down
+2023/01/30 19:49:40 [notice] 177#177: gracefully shutting down
+2023/01/30 19:49:40 [notice] 176#176: gracefully shutting down
+2023/01/30 19:49:40 [notice] 175#175: exiting
+2023/01/30 19:49:40 [notice] 176#176: exiting
+2023/01/30 19:49:40 [notice] 177#177: exiting
+2023/01/30 19:49:40 [notice] 176#176: exit
+2023/01/30 19:49:40 [notice] 177#177: exit
+2023/01/30 19:49:40 [notice] 174#174: exiting
+2023/01/30 19:49:40 [notice] 175#175: exit
+2023/01/30 19:49:40 [notice] 174#174: exit
+2023/01/30 19:49:40 [notice] 178#178: gracefully shutting down
+2023/01/30 19:49:40 [notice] 178#178: exiting
+2023/01/30 19:49:40 [notice] 178#178: exit
+2023/01/30 19:49:40 [notice] 13#13: signal 17 (SIGCHLD) received from 175
+2023/01/30 19:49:40 [notice] 13#13: worker process 175 exited with code 0
+2023/01/30 19:49:40 [notice] 13#13: worker process 176 exited with code 0
+2023/01/30 19:49:40 [notice] 13#13: worker process 174 exited with code 0
+2023/01/30 19:49:40 [notice] 13#13: worker process 177 exited with code 0
+2023/01/30 19:49:40 [notice] 13#13: worker process 178 exited with code 0
+2023/01/30 19:49:40 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:40 [notice] 13#13: signal 17 (SIGCHLD) received from 178
+2023/01/30 19:49:41 [warn] 181#181: *158 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/03/0000000036 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.17:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:49:41 [warn] 181#181: *157 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/03/0000000037 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:41 +0000] "GET /news.php HTTP/1.1" 200 1060504 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:41 +0000] "GET /news.php HTTP/1.1" 200 1060751 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:41 +0000] "GET /news.php HTTP/1.1" 200 1063380 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:41 +0000] "GET /news.php HTTP/1.1" 200 1061322 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:43 +0000] "GET /news.php HTTP/1.1" 200 1062125 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:43 +0000] "GET /news.php HTTP/1.1" 200 1063339 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:43 +0000] "GET /news.php HTTP/1.1" 200 1061832 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:43 +0000] "GET /news.php HTTP/1.1" 200 1062142 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:45 [warn] 181#181: *157 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/03/0000000038 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:45 +0000] "GET /news.php HTTP/1.1" 200 1061827 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:45 +0000] "GET /news.php HTTP/1.1" 200 1060823 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:45 +0000] "GET /news.php HTTP/1.1" 200 1062221 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:49:45 [warn] 181#181: *157 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/03/0000000039 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:49:45 +0000] "GET /news.php HTTP/1.1" 200 1062510 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:47 +0000] "GET /news.php HTTP/1.1" 200 1064079 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:47 +0000] "GET /news.php HTTP/1.1" 200 1062873 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:47 +0000] "GET /news.php HTTP/1.1" 200 1061534 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:47 +0000] "GET /news.php HTTP/1.1" 200 1061490 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:49 +0000] "GET /news.php HTTP/1.1" 200 1061782 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:49 +0000] "GET /news.php HTTP/1.1" 200 1061827 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:49 +0000] "GET /news.php HTTP/1.1" 200 1061985 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:49 +0000] "GET /news.php HTTP/1.1" 200 1061881 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:51 +0000] "GET /news.php HTTP/1.1" 200 1062267 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:51 +0000] "GET /news.php HTTP/1.1" 200 1064080 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:51 +0000] "GET /news.php HTTP/1.1" 200 1061958 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:51 +0000] "GET /news.php HTTP/1.1" 200 1064718 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:49:52.541458       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:52 [notice] 187#187: signal process started
+2023/01/30 19:49:52 [notice] 13#13: signal 1 (SIGHUP) received from 187, reconfiguring
+2023/01/30 19:49:52 [notice] 13#13: reconfiguring
+2023/01/30 19:49:52 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:52 [notice] 13#13: start worker processes
+2023/01/30 19:49:52 [notice] 13#13: start worker process 188
+2023/01/30 19:49:52 [notice] 13#13: start worker process 189
+2023/01/30 19:49:52 [notice] 13#13: start worker process 190
+2023/01/30 19:49:52 [notice] 13#13: start worker process 191
+2023/01/30 19:49:52 [notice] 13#13: start worker process 192
+2023/01/30 19:49:52 [notice] 181#181: gracefully shutting down
+2023/01/30 19:49:52 [notice] 181#181: exiting
+2023/01/30 19:49:52 [notice] 181#181: exit
+2023/01/30 19:49:52 [notice] 183#183: gracefully shutting down
+2023/01/30 19:49:52 [notice] 183#183: exiting
+2023/01/30 19:49:52 [notice] 183#183: exit
+2023/01/30 19:49:52 [notice] 182#182: gracefully shutting down
+2023/01/30 19:49:52 [notice] 182#182: exiting
+2023/01/30 19:49:52 [notice] 182#182: exit
+2023/01/30 19:49:52 [notice] 184#184: gracefully shutting down
+2023/01/30 19:49:52 [notice] 184#184: exiting
+2023/01/30 19:49:52 [notice] 184#184: exit
+2023/01/30 19:49:52 [notice] 185#185: gracefully shutting down
+2023/01/30 19:49:52 [notice] 185#185: exiting
+2023/01/30 19:49:52 [notice] 185#185: exit
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 181
+2023/01/30 19:49:52 [notice] 13#13: worker process 181 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 183
+2023/01/30 19:49:52 [notice] 13#13: worker process 182 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: worker process 183 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 185
+2023/01/30 19:49:52 [notice] 13#13: worker process 184 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: worker process 185 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:49:52.718302       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:49:52 [notice] 194#194: signal process started
+2023/01/30 19:49:52 [notice] 13#13: signal 1 (SIGHUP) received from 194, reconfiguring
+2023/01/30 19:49:52 [notice] 13#13: reconfiguring
+2023/01/30 19:49:52 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:49:52 [notice] 13#13: start worker processes
+2023/01/30 19:49:52 [notice] 13#13: start worker process 195
+2023/01/30 19:49:52 [notice] 13#13: start worker process 196
+2023/01/30 19:49:52 [notice] 13#13: start worker process 197
+2023/01/30 19:49:52 [notice] 13#13: start worker process 198
+2023/01/30 19:49:52 [notice] 13#13: start worker process 199
+2023/01/30 19:49:52 [notice] 192#192: gracefully shutting down
+2023/01/30 19:49:52 [notice] 189#189: gracefully shutting down
+2023/01/30 19:49:52 [notice] 189#189: exiting
+2023/01/30 19:49:52 [notice] 192#192: exiting
+2023/01/30 19:49:52 [notice] 189#189: exit
+2023/01/30 19:49:52 [notice] 192#192: exit
+2023/01/30 19:49:52 [notice] 191#191: gracefully shutting down
+2023/01/30 19:49:52 [notice] 191#191: exiting
+2023/01/30 19:49:52 [notice] 191#191: exit
+2023/01/30 19:49:52 [notice] 190#190: gracefully shutting down
+2023/01/30 19:49:52 [notice] 190#190: exiting
+2023/01/30 19:49:52 [notice] 190#190: exit
+2023/01/30 19:49:52 [notice] 188#188: gracefully shutting down
+2023/01/30 19:49:52 [notice] 188#188: exiting
+2023/01/30 19:49:52 [notice] 188#188: exit
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 189
+2023/01/30 19:49:52 [notice] 13#13: worker process 189 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 192
+2023/01/30 19:49:52 [notice] 13#13: worker process 192 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 191
+2023/01/30 19:49:52 [notice] 13#13: worker process 191 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 190
+2023/01/30 19:49:52 [notice] 13#13: worker process 190 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:49:52 [notice] 13#13: signal 17 (SIGCHLD) received from 188
+2023/01/30 19:49:52 [notice] 13#13: worker process 188 exited with code 0
+2023/01/30 19:49:52 [notice] 13#13: signal 29 (SIGIO) received
+172.17.0.1 - - [30/Jan/2023:19:49:53 +0000] "GET /news.php HTTP/1.1" 200 1061817 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:53 +0000] "GET /news.php HTTP/1.1" 200 1061422 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:53 +0000] "GET /news.php HTTP/1.1" 200 1063346 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:53 +0000] "GET /news.php HTTP/1.1" 200 1062989 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:55 +0000] "GET /news.php HTTP/1.1" 200 1061830 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:55 +0000] "GET /news.php HTTP/1.1" 200 1061528 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:55 +0000] "GET /news.php HTTP/1.1" 200 1062146 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:55 +0000] "GET /news.php HTTP/1.1" 200 1064156 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:57 +0000] "GET /news.php HTTP/1.1" 200 1061809 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:57 +0000] "GET /news.php HTTP/1.1" 200 1062579 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:57 +0000] "GET /news.php HTTP/1.1" 200 1061648 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:57 +0000] "GET /news.php HTTP/1.1" 200 1061421 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:59 +0000] "GET /news.php HTTP/1.1" 200 1063337 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:59 +0000] "GET /news.php HTTP/1.1" 200 1061837 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:59 +0000] "GET /news.php HTTP/1.1" 200 1061768 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:49:59 +0000] "GET /news.php HTTP/1.1" 200 1062855 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:01 +0000] "GET /news.php HTTP/1.1" 200 1061310 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:01 +0000] "GET /news.php HTTP/1.1" 200 1061961 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:01 +0000] "GET /news.php HTTP/1.1" 200 1061411 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:01 +0000] "GET /news.php HTTP/1.1" 200 1061322 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:03 +0000] "GET /news.php HTTP/1.1" 200 1062269 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:03 +0000] "GET /news.php HTTP/1.1" 200 1062386 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:03 [warn] 199#199: *187 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/04/0000000040 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:03 +0000] "GET /news.php HTTP/1.1" 200 1062621 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:03 +0000] "GET /news.php HTTP/1.1" 200 1063155 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:05 [warn] 199#199: *188 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/04/0000000041 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:05 +0000] "GET /news.php HTTP/1.1" 200 1061369 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:05 +0000] "GET /news.php HTTP/1.1" 200 1061329 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:05 +0000] "GET /news.php HTTP/1.1" 200 1062154 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:05 +0000] "GET /news.php HTTP/1.1" 200 1061838 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:07 [warn] 199#199: *187 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/04/0000000042 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:07 +0000] "GET /news.php HTTP/1.1" 200 1060806 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:07 +0000] "GET /news.php HTTP/1.1" 200 1064109 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:07 +0000] "GET /news.php HTTP/1.1" 200 1062840 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:07 +0000] "GET /news.php HTTP/1.1" 200 1062174 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:09 +0000] "GET /news.php HTTP/1.1" 200 1062576 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:09 +0000] "GET /news.php HTTP/1.1" 200 1061769 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:09 +0000] "GET /news.php HTTP/1.1" 200 1062297 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:09 [warn] 199#199: *188 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/04/0000000043 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:09 +0000] "GET /news.php HTTP/1.1" 200 1062620 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:11 +0000] "GET /news.php HTTP/1.1" 200 1063467 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:11 +0000] "GET /news.php HTTP/1.1" 200 1061768 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:11 +0000] "GET /news.php HTTP/1.1" 200 1062291 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:11 +0000] "GET /news.php HTTP/1.1" 200 1063083 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:13 +0000] "GET /news.php HTTP/1.1" 200 1062853 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:13 [warn] 199#199: *188 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/04/0000000044 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:13 +0000] "GET /news.php HTTP/1.1" 200 1063030 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:13 +0000] "GET /news.php HTTP/1.1" 200 1062292 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:13 +0000] "GET /news.php HTTP/1.1" 200 1062154 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:15 +0000] "GET /news.php HTTP/1.1" 200 1061830 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:15 +0000] "GET /news.php HTTP/1.1" 200 1063467 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:15 [warn] 199#199: *187 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/04/0000000045 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:15 +0000] "GET /news.php HTTP/1.1" 200 1063444 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:15 +0000] "GET /news.php HTTP/1.1" 200 1062565 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:17 +0000] "GET /news.php HTTP/1.1" 200 1062209 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:17 +0000] "GET /news.php HTTP/1.1" 200 1063443 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:17 +0000] "GET /news.php HTTP/1.1" 200 1061867 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:17 [warn] 199#199: *187 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/04/0000000046 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:17 +0000] "GET /news.php HTTP/1.1" 200 1064559 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:19 +0000] "GET /news.php HTTP/1.1" 200 1061301 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:19 +0000] "GET /news.php HTTP/1.1" 200 1062262 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:19 +0000] "GET /news.php HTTP/1.1" 200 1061290 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:19 +0000] "GET /news.php HTTP/1.1" 200 1062886 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:21 +0000] "GET /news.php HTTP/1.1" 200 1062208 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:21 +0000] "GET /news.php HTTP/1.1" 200 1061800 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:21 [warn] 199#199: *187 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/04/0000000047 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:21 +0000] "GET /news.php HTTP/1.1" 200 1061280 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:21 +0000] "GET /news.php HTTP/1.1" 200 1061440 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:23 +0000] "GET /news.php HTTP/1.1" 200 1062145 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:23 +0000] "GET /news.php HTTP/1.1" 200 1063442 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:23 +0000] "GET /news.php HTTP/1.1" 200 1061367 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:23 +0000] "GET /news.php HTTP/1.1" 200 1062208 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:50:24.727160       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:24 [notice] 201#201: signal process started
+2023/01/30 19:50:24 [notice] 13#13: signal 1 (SIGHUP) received from 201, reconfiguring
+2023/01/30 19:50:24 [notice] 13#13: reconfiguring
+2023/01/30 19:50:24 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:24 [notice] 13#13: start worker processes
+2023/01/30 19:50:24 [notice] 13#13: start worker process 202
+2023/01/30 19:50:24 [notice] 13#13: start worker process 203
+2023/01/30 19:50:24 [notice] 13#13: start worker process 204
+2023/01/30 19:50:24 [notice] 13#13: start worker process 205
+2023/01/30 19:50:24 [notice] 13#13: start worker process 206
+2023/01/30 19:50:24 [notice] 195#195: gracefully shutting down
+2023/01/30 19:50:24 [notice] 196#196: gracefully shutting down
+2023/01/30 19:50:24 [notice] 198#198: gracefully shutting down
+2023/01/30 19:50:24 [notice] 197#197: gracefully shutting down
+2023/01/30 19:50:24 [notice] 198#198: exiting
+2023/01/30 19:50:24 [notice] 196#196: exiting
+2023/01/30 19:50:24 [notice] 197#197: exiting
+2023/01/30 19:50:24 [notice] 196#196: exit
+2023/01/30 19:50:24 [notice] 197#197: exit
+2023/01/30 19:50:24 [notice] 198#198: exit
+2023/01/30 19:50:24 [notice] 195#195: exiting
+2023/01/30 19:50:24 [notice] 195#195: exit
+2023/01/30 19:50:24 [notice] 199#199: gracefully shutting down
+2023/01/30 19:50:24 [notice] 199#199: exiting
+2023/01/30 19:50:24 [notice] 199#199: exit
+2023/01/30 19:50:24 [notice] 13#13: signal 17 (SIGCHLD) received from 198
+2023/01/30 19:50:24 [notice] 13#13: worker process 195 exited with code 0
+2023/01/30 19:50:24 [notice] 13#13: worker process 197 exited with code 0
+2023/01/30 19:50:24 [notice] 13#13: worker process 198 exited with code 0
+2023/01/30 19:50:24 [notice] 13#13: worker process 199 exited with code 0
+2023/01/30 19:50:24 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:24 [notice] 13#13: signal 17 (SIGCHLD) received from 197
+2023/01/30 19:50:24 [notice] 13#13: signal 17 (SIGCHLD) received from 196
+2023/01/30 19:50:24 [notice] 13#13: worker process 196 exited with code 0
+2023/01/30 19:50:24 [notice] 13#13: signal 29 (SIGIO) received
+172.17.0.1 - - [30/Jan/2023:19:50:25 +0000] "GET /news.php HTTP/1.1" 200 1062144 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:25 +0000] "GET /news.php HTTP/1.1" 200 1064112 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:25 +0000] "GET /news.php HTTP/1.1" 200 1062913 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:25 +0000] "GET /news.php HTTP/1.1" 200 1061284 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:27 +0000] "GET /news.php HTTP/1.1" 200 1063804 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:27 +0000] "GET /news.php HTTP/1.1" 200 1061919 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:27 +0000] "GET /news.php HTTP/1.1" 200 1063388 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:27 +0000] "GET /news.php HTTP/1.1" 200 1061306 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:29 +0000] "GET /news.php HTTP/1.1" 200 1062937 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:29 +0000] "GET /news.php HTTP/1.1" 200 1062880 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:29 [warn] 202#202: *256 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/04/0000000048 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:50:29 [warn] 202#202: *255 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/04/0000000049 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:29 +0000] "GET /news.php HTTP/1.1" 200 1062233 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:29 +0000] "GET /news.php HTTP/1.1" 200 1061531 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:31 +0000] "GET /news.php HTTP/1.1" 200 1061872 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:31 +0000] "GET /news.php HTTP/1.1" 200 1063402 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:31 [warn] 202#202: *256 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/05/0000000050 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:31 +0000] "GET /news.php HTTP/1.1" 200 1063083 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:31 +0000] "GET /news.php HTTP/1.1" 200 1061650 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:33 +0000] "GET /news.php HTTP/1.1" 200 1062035 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:33 +0000] "GET /news.php HTTP/1.1" 200 1061839 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:33 +0000] "GET /news.php HTTP/1.1" 200 1061491 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:33 +0000] "GET /news.php HTTP/1.1" 200 1062988 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:35 [warn] 202#202: *256 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/05/0000000051 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:35 +0000] "GET /news.php HTTP/1.1" 200 1061357 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:35 +0000] "GET /news.php HTTP/1.1" 200 1062336 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:35 +0000] "GET /news.php HTTP/1.1" 200 1061504 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:35 [warn] 202#202: *255 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/05/0000000052 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:35 +0000] "GET /news.php HTTP/1.1" 200 1063069 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:37 +0000] "GET /news.php HTTP/1.1" 200 1063403 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:37 +0000] "GET /news.php HTTP/1.1" 200 1061851 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:37 +0000] "GET /news.php HTTP/1.1" 200 1062993 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:37 +0000] "GET /news.php HTTP/1.1" 200 1062035 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:39 +0000] "GET /news.php HTTP/1.1" 200 1062580 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:39 +0000] "GET /news.php HTTP/1.1" 200 1062873 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:39 +0000] "GET /news.php HTTP/1.1" 200 1062164 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:39 +0000] "GET /news.php HTTP/1.1" 200 1063389 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:41 [warn] 202#202: *256 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/05/0000000053 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:41 +0000] "GET /news.php HTTP/1.1" 200 1062150 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:41 +0000] "GET /news.php HTTP/1.1" 200 1061326 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:41 [warn] 202#202: *256 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/05/0000000054 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:41 +0000] "GET /news.php HTTP/1.1" 200 1061505 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:41 +0000] "GET /news.php HTTP/1.1" 200 1060851 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:50:41.800961       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:41 [notice] 208#208: signal process started
+2023/01/30 19:50:41 [notice] 13#13: signal 1 (SIGHUP) received from 208, reconfiguring
+2023/01/30 19:50:41 [notice] 13#13: reconfiguring
+2023/01/30 19:50:41 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:41 [notice] 13#13: start worker processes
+2023/01/30 19:50:41 [notice] 13#13: start worker process 209
+2023/01/30 19:50:41 [notice] 13#13: start worker process 210
+2023/01/30 19:50:41 [notice] 13#13: start worker process 211
+2023/01/30 19:50:41 [notice] 13#13: start worker process 212
+2023/01/30 19:50:41 [notice] 13#13: start worker process 213
+2023/01/30 19:50:41 [notice] 202#202: gracefully shutting down
+2023/01/30 19:50:41 [notice] 203#203: gracefully shutting down
+2023/01/30 19:50:41 [notice] 203#203: exiting
+2023/01/30 19:50:41 [notice] 206#206: gracefully shutting down
+2023/01/30 19:50:41 [notice] 206#206: exiting
+2023/01/30 19:50:41 [notice] 204#204: gracefully shutting down
+2023/01/30 19:50:41 [notice] 202#202: exiting
+2023/01/30 19:50:41 [notice] 206#206: exit
+2023/01/30 19:50:41 [notice] 204#204: exiting
+2023/01/30 19:50:41 [notice] 203#203: exit
+2023/01/30 19:50:41 [notice] 205#205: gracefully shutting down
+2023/01/30 19:50:41 [notice] 205#205: exiting
+2023/01/30 19:50:41 [notice] 205#205: exit
+2023/01/30 19:50:41 [notice] 202#202: exit
+2023/01/30 19:50:41 [notice] 204#204: exit
+2023/01/30 19:50:41 [notice] 13#13: signal 17 (SIGCHLD) received from 203
+2023/01/30 19:50:41 [notice] 13#13: worker process 203 exited with code 0
+2023/01/30 19:50:41 [notice] 13#13: worker process 204 exited with code 0
+2023/01/30 19:50:41 [notice] 13#13: worker process 205 exited with code 0
+2023/01/30 19:50:41 [notice] 13#13: worker process 206 exited with code 0
+2023/01/30 19:50:41 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:41 [notice] 13#13: signal 17 (SIGCHLD) received from 204
+2023/01/30 19:50:41 [notice] 13#13: worker process 202 exited with code 0
+2023/01/30 19:50:41 [notice] 13#13: signal 29 (SIGIO) received
+172.17.0.1 - - [30/Jan/2023:19:50:43 +0000] "GET /news.php HTTP/1.1" 200 1061303 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:43 +0000] "GET /news.php HTTP/1.1" 200 1064160 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:43 [warn] 209#209: *296 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/05/0000000055 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:43 +0000] "GET /news.php HTTP/1.1" 200 1062245 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:43 +0000] "GET /news.php HTTP/1.1" 200 1062986 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:45 [warn] 209#209: *296 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/05/0000000056 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:50:45 [warn] 209#209: *297 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/05/0000000057 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:45 +0000] "GET /news.php HTTP/1.1" 200 1060889 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:45 +0000] "GET /news.php HTTP/1.1" 200 1061550 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:45 [warn] 209#209: *296 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/05/0000000058 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:50:45 [warn] 209#209: *297 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/05/0000000059 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:45 +0000] "GET /news.php HTTP/1.1" 200 1063686 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:45 +0000] "GET /news.php HTTP/1.1" 200 1061133 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:47 +0000] "GET /news.php HTTP/1.1" 200 1063351 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:47 +0000] "GET /news.php HTTP/1.1" 200 1062880 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:47 [warn] 209#209: *297 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/06/0000000060 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:50:47 [warn] 209#209: *296 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/06/0000000061 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:47 +0000] "GET /news.php HTTP/1.1" 200 1060992 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:47 +0000] "GET /news.php HTTP/1.1" 200 1062426 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:49 [warn] 209#209: *297 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/06/0000000062 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:49 +0000] "GET /news.php HTTP/1.1" 200 1060756 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:49 +0000] "GET /news.php HTTP/1.1" 200 1061843 "-" "k6/0.42.0 (https://k6.io/)" "-"
+2023/01/30 19:50:49 [warn] 209#209: *297 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/06/0000000063 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.7:80/news.php", host: "nginx-ingress.default.svc"
+2023/01/30 19:50:49 [warn] 209#209: *296 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/06/0000000064 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.14:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:49 +0000] "GET /news.php HTTP/1.1" 200 1060983 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:49 +0000] "GET /news.php HTTP/1.1" 200 1062133 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:50:50.021232       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:50 [notice] 215#215: signal process started
+2023/01/30 19:50:50 [notice] 13#13: signal 1 (SIGHUP) received from 215, reconfiguring
+2023/01/30 19:50:50 [notice] 13#13: reconfiguring
+2023/01/30 19:50:50 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:50 [notice] 13#13: start worker processes
+2023/01/30 19:50:50 [notice] 13#13: start worker process 216
+2023/01/30 19:50:50 [notice] 13#13: start worker process 217
+2023/01/30 19:50:50 [notice] 13#13: start worker process 218
+2023/01/30 19:50:50 [notice] 13#13: start worker process 219
+2023/01/30 19:50:50 [notice] 13#13: start worker process 220
+2023/01/30 19:50:50 [notice] 209#209: gracefully shutting down
+2023/01/30 19:50:50 [notice] 210#210: gracefully shutting down
+2023/01/30 19:50:50 [notice] 213#213: gracefully shutting down
+2023/01/30 19:50:50 [notice] 212#212: gracefully shutting down
+2023/01/30 19:50:50 [notice] 213#213: exiting
+2023/01/30 19:50:50 [notice] 212#212: exiting
+2023/01/30 19:50:50 [notice] 210#210: exiting
+2023/01/30 19:50:50 [notice] 209#209: exiting
+2023/01/30 19:50:50 [notice] 213#213: exit
+2023/01/30 19:50:50 [notice] 212#212: exit
+2023/01/30 19:50:50 [notice] 210#210: exit
+2023/01/30 19:50:50 [notice] 211#211: gracefully shutting down
+2023/01/30 19:50:50 [notice] 211#211: exiting
+2023/01/30 19:50:50 [notice] 209#209: exit
+2023/01/30 19:50:50 [notice] 211#211: exit
+2023/01/30 19:50:50 [notice] 13#13: signal 17 (SIGCHLD) received from 209
+2023/01/30 19:50:50 [notice] 13#13: worker process 209 exited with code 0
+2023/01/30 19:50:50 [notice] 13#13: worker process 212 exited with code 0
+2023/01/30 19:50:50 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:50 [notice] 13#13: signal 17 (SIGCHLD) received from 211
+2023/01/30 19:50:50 [notice] 13#13: worker process 211 exited with code 0
+2023/01/30 19:50:50 [notice] 13#13: worker process 213 exited with code 0
+2023/01/30 19:50:50 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:50 [notice] 13#13: signal 17 (SIGCHLD) received from 210
+2023/01/30 19:50:50 [notice] 13#13: worker process 210 exited with code 0
+2023/01/30 19:50:50 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:51 [warn] 216#216: *315 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/06/0000000065 while reading upstream, client: 172.17.0.1, server: nginx-ingress.default.svc, request: "GET /news.php HTTP/1.1", upstream: "http://172.17.0.15:80/news.php", host: "nginx-ingress.default.svc"
+172.17.0.1 - - [30/Jan/2023:19:50:51 +0000] "GET /news.php HTTP/1.1" 200 1063167 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:51 +0000] "GET /news.php HTTP/1.1" 200 1063218 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:51 +0000] "GET /news.php HTTP/1.1" 200 1061305 "-" "k6/0.42.0 (https://k6.io/)" "-"
+172.17.0.1 - - [30/Jan/2023:19:50:51 +0000] "GET /news.php HTTP/1.1" 200 1062852 "-" "k6/0.42.0 (https://k6.io/)" "-"
+W0130 19:50:56.701004       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:56 [notice] 222#222: signal process started
+2023/01/30 19:50:56 [notice] 13#13: signal 1 (SIGHUP) received from 222, reconfiguring
+2023/01/30 19:50:56 [notice] 13#13: reconfiguring
+2023/01/30 19:50:56 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:56 [notice] 13#13: start worker processes
+2023/01/30 19:50:56 [notice] 13#13: start worker process 223
+2023/01/30 19:50:56 [notice] 13#13: start worker process 224
+2023/01/30 19:50:56 [notice] 13#13: start worker process 225
+2023/01/30 19:50:56 [notice] 13#13: start worker process 226
+2023/01/30 19:50:56 [notice] 13#13: start worker process 227
+2023/01/30 19:50:56 [notice] 216#216: gracefully shutting down
+2023/01/30 19:50:56 [notice] 218#218: gracefully shutting down
+2023/01/30 19:50:56 [notice] 217#217: gracefully shutting down
+2023/01/30 19:50:56 [notice] 218#218: exiting
+2023/01/30 19:50:56 [notice] 216#216: exiting
+2023/01/30 19:50:56 [notice] 217#217: exiting
+2023/01/30 19:50:56 [notice] 216#216: exit
+2023/01/30 19:50:56 [notice] 217#217: exit
+2023/01/30 19:50:56 [notice] 218#218: exit
+2023/01/30 19:50:56 [notice] 220#220: gracefully shutting down
+2023/01/30 19:50:56 [notice] 219#219: gracefully shutting down
+2023/01/30 19:50:56 [notice] 219#219: exiting
+2023/01/30 19:50:56 [notice] 220#220: exiting
+2023/01/30 19:50:56 [notice] 220#220: exit
+2023/01/30 19:50:56 [notice] 219#219: exit
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 220
+2023/01/30 19:50:56 [notice] 13#13: worker process 219 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: worker process 220 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 218
+2023/01/30 19:50:56 [notice] 13#13: worker process 217 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: worker process 218 exited with code 0
+W0130 19:50:56.846336       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 216
+2023/01/30 19:50:56 [notice] 13#13: worker process 216 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:56 [notice] 229#229: signal process started
+2023/01/30 19:50:56 [notice] 13#13: signal 1 (SIGHUP) received from 229, reconfiguring
+2023/01/30 19:50:56 [notice] 13#13: reconfiguring
+2023/01/30 19:50:56 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:56 [notice] 13#13: start worker processes
+2023/01/30 19:50:56 [notice] 13#13: start worker process 230
+2023/01/30 19:50:56 [notice] 13#13: start worker process 231
+2023/01/30 19:50:56 [notice] 13#13: start worker process 232
+2023/01/30 19:50:56 [notice] 13#13: start worker process 233
+2023/01/30 19:50:56 [notice] 13#13: start worker process 234
+2023/01/30 19:50:56 [notice] 223#223: gracefully shutting down
+2023/01/30 19:50:56 [notice] 224#224: gracefully shutting down
+2023/01/30 19:50:56 [notice] 225#225: gracefully shutting down
+2023/01/30 19:50:56 [notice] 223#223: exiting
+2023/01/30 19:50:56 [notice] 224#224: exiting
+2023/01/30 19:50:56 [notice] 225#225: exiting
+2023/01/30 19:50:56 [notice] 225#225: exit
+2023/01/30 19:50:56 [notice] 224#224: exit
+2023/01/30 19:50:56 [notice] 223#223: exit
+2023/01/30 19:50:56 [notice] 226#226: gracefully shutting down
+2023/01/30 19:50:56 [notice] 226#226: exiting
+2023/01/30 19:50:56 [notice] 226#226: exit
+2023/01/30 19:50:56 [notice] 227#227: gracefully shutting down
+2023/01/30 19:50:56 [notice] 227#227: exiting
+2023/01/30 19:50:56 [notice] 227#227: exit
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 227
+2023/01/30 19:50:56 [notice] 13#13: worker process 223 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: worker process 224 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: worker process 227 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 224
+2023/01/30 19:50:56 [notice] 13#13: worker process 226 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 226
+2023/01/30 19:50:56 [notice] 13#13: signal 17 (SIGCHLD) received from 225
+2023/01/30 19:50:56 [notice] 13#13: worker process 225 exited with code 0
+2023/01/30 19:50:56 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:50:59.234367       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:50:59 [notice] 236#236: signal process started
+2023/01/30 19:50:59 [notice] 13#13: signal 1 (SIGHUP) received from 236, reconfiguring
+2023/01/30 19:50:59 [notice] 13#13: reconfiguring
+2023/01/30 19:50:59 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:50:59 [notice] 13#13: start worker processes
+2023/01/30 19:50:59 [notice] 13#13: start worker process 237
+2023/01/30 19:50:59 [notice] 13#13: start worker process 238
+2023/01/30 19:50:59 [notice] 13#13: start worker process 239
+2023/01/30 19:50:59 [notice] 13#13: start worker process 240
+2023/01/30 19:50:59 [notice] 13#13: start worker process 241
+2023/01/30 19:50:59 [notice] 230#230: gracefully shutting down
+2023/01/30 19:50:59 [notice] 231#231: gracefully shutting down
+2023/01/30 19:50:59 [notice] 232#232: gracefully shutting down
+2023/01/30 19:50:59 [notice] 230#230: exiting
+2023/01/30 19:50:59 [notice] 231#231: exiting
+2023/01/30 19:50:59 [notice] 233#233: gracefully shutting down
+2023/01/30 19:50:59 [notice] 233#233: exiting
+2023/01/30 19:50:59 [notice] 232#232: exiting
+2023/01/30 19:50:59 [notice] 234#234: gracefully shutting down
+2023/01/30 19:50:59 [notice] 234#234: exiting
+2023/01/30 19:50:59 [notice] 231#231: exit
+2023/01/30 19:50:59 [notice] 232#232: exit
+2023/01/30 19:50:59 [notice] 230#230: exit
+2023/01/30 19:50:59 [notice] 233#233: exit
+2023/01/30 19:50:59 [notice] 234#234: exit
+2023/01/30 19:50:59 [notice] 13#13: signal 17 (SIGCHLD) received from 233
+2023/01/30 19:50:59 [notice] 13#13: worker process 230 exited with code 0
+2023/01/30 19:50:59 [notice] 13#13: worker process 233 exited with code 0
+2023/01/30 19:50:59 [notice] 13#13: worker process 234 exited with code 0
+2023/01/30 19:50:59 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:59 [notice] 13#13: signal 17 (SIGCHLD) received from 232
+2023/01/30 19:50:59 [notice] 13#13: worker process 232 exited with code 0
+2023/01/30 19:50:59 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:50:59 [notice] 13#13: signal 17 (SIGCHLD) received from 231
+2023/01/30 19:50:59 [notice] 13#13: worker process 231 exited with code 0
+2023/01/30 19:50:59 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:51:01.165879       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:01 [notice] 243#243: signal process started
+2023/01/30 19:51:01 [notice] 13#13: signal 1 (SIGHUP) received from 243, reconfiguring
+2023/01/30 19:51:01 [notice] 13#13: reconfiguring
+2023/01/30 19:51:01 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:01 [notice] 13#13: start worker processes
+2023/01/30 19:51:01 [notice] 13#13: start worker process 244
+2023/01/30 19:51:01 [notice] 13#13: start worker process 245
+2023/01/30 19:51:01 [notice] 13#13: start worker process 246
+2023/01/30 19:51:01 [notice] 13#13: start worker process 247
+2023/01/30 19:51:01 [notice] 13#13: start worker process 248
+2023/01/30 19:51:01 [notice] 237#237: gracefully shutting down
+2023/01/30 19:51:01 [notice] 237#237: exiting
+2023/01/30 19:51:01 [notice] 237#237: exit
+2023/01/30 19:51:01 [notice] 238#238: gracefully shutting down
+2023/01/30 19:51:01 [notice] 238#238: exiting
+2023/01/30 19:51:01 [notice] 238#238: exit
+2023/01/30 19:51:01 [notice] 239#239: gracefully shutting down
+2023/01/30 19:51:01 [notice] 239#239: exiting
+2023/01/30 19:51:01 [notice] 239#239: exit
+2023/01/30 19:51:01 [notice] 240#240: gracefully shutting down
+2023/01/30 19:51:01 [notice] 240#240: exiting
+2023/01/30 19:51:01 [notice] 240#240: exit
+2023/01/30 19:51:01 [notice] 241#241: gracefully shutting down
+2023/01/30 19:51:01 [notice] 241#241: exiting
+2023/01/30 19:51:01 [notice] 241#241: exit
+W0130 19:51:01.293509       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 237
+2023/01/30 19:51:01 [notice] 13#13: worker process 237 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 239
+2023/01/30 19:51:01 [notice] 13#13: worker process 238 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: worker process 239 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 240
+2023/01/30 19:51:01 [notice] 13#13: worker process 240 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 241
+2023/01/30 19:51:01 [notice] 13#13: worker process 241 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 250#250: signal process started
+2023/01/30 19:51:01 [notice] 13#13: signal 1 (SIGHUP) received from 250, reconfiguring
+2023/01/30 19:51:01 [notice] 13#13: reconfiguring
+2023/01/30 19:51:01 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:01 [notice] 13#13: start worker processes
+2023/01/30 19:51:01 [notice] 13#13: start worker process 251
+2023/01/30 19:51:01 [notice] 13#13: start worker process 252
+2023/01/30 19:51:01 [notice] 13#13: start worker process 253
+2023/01/30 19:51:01 [notice] 13#13: start worker process 254
+2023/01/30 19:51:01 [notice] 13#13: start worker process 255
+2023/01/30 19:51:01 [notice] 244#244: gracefully shutting down
+2023/01/30 19:51:01 [notice] 246#246: gracefully shutting down
+2023/01/30 19:51:01 [notice] 247#247: gracefully shutting down
+2023/01/30 19:51:01 [notice] 246#246: exiting
+2023/01/30 19:51:01 [notice] 247#247: exiting
+2023/01/30 19:51:01 [notice] 244#244: exiting
+2023/01/30 19:51:01 [notice] 247#247: exit
+2023/01/30 19:51:01 [notice] 246#246: exit
+2023/01/30 19:51:01 [notice] 244#244: exit
+2023/01/30 19:51:01 [notice] 245#245: gracefully shutting down
+2023/01/30 19:51:01 [notice] 248#248: gracefully shutting down
+2023/01/30 19:51:01 [notice] 245#245: exiting
+2023/01/30 19:51:01 [notice] 248#248: exiting
+2023/01/30 19:51:01 [notice] 245#245: exit
+2023/01/30 19:51:01 [notice] 248#248: exit
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 247
+2023/01/30 19:51:01 [notice] 13#13: worker process 247 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 244
+2023/01/30 19:51:01 [notice] 13#13: worker process 244 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: worker process 246 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: worker process 248 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 246
+2023/01/30 19:51:01 [notice] 13#13: signal 17 (SIGCHLD) received from 245
+2023/01/30 19:51:01 [notice] 13#13: worker process 245 exited with code 0
+2023/01/30 19:51:01 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:51:03.360112       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:03 [notice] 257#257: signal process started
+2023/01/30 19:51:03 [notice] 13#13: signal 1 (SIGHUP) received from 257, reconfiguring
+2023/01/30 19:51:03 [notice] 13#13: reconfiguring
+2023/01/30 19:51:03 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:03 [notice] 13#13: start worker processes
+2023/01/30 19:51:03 [notice] 13#13: start worker process 258
+2023/01/30 19:51:03 [notice] 13#13: start worker process 259
+2023/01/30 19:51:03 [notice] 13#13: start worker process 260
+2023/01/30 19:51:03 [notice] 13#13: start worker process 261
+2023/01/30 19:51:03 [notice] 13#13: start worker process 262
+2023/01/30 19:51:03 [notice] 251#251: gracefully shutting down
+2023/01/30 19:51:03 [notice] 252#252: gracefully shutting down
+2023/01/30 19:51:03 [notice] 254#254: gracefully shutting down
+2023/01/30 19:51:03 [notice] 252#252: exiting
+2023/01/30 19:51:03 [notice] 251#251: exiting
+2023/01/30 19:51:03 [notice] 254#254: exiting
+2023/01/30 19:51:03 [notice] 253#253: gracefully shutting down
+2023/01/30 19:51:03 [notice] 253#253: exiting
+2023/01/30 19:51:03 [notice] 252#252: exit
+2023/01/30 19:51:03 [notice] 251#251: exit
+2023/01/30 19:51:03 [notice] 254#254: exit
+2023/01/30 19:51:03 [notice] 253#253: exit
+2023/01/30 19:51:03 [notice] 255#255: gracefully shutting down
+2023/01/30 19:51:03 [notice] 255#255: exiting
+2023/01/30 19:51:03 [notice] 255#255: exit
+2023/01/30 19:51:03 [notice] 13#13: signal 17 (SIGCHLD) received from 251
+2023/01/30 19:51:03 [notice] 13#13: worker process 251 exited with code 0
+2023/01/30 19:51:03 [notice] 13#13: worker process 254 exited with code 0
+2023/01/30 19:51:03 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:03 [notice] 13#13: signal 17 (SIGCHLD) received from 255
+2023/01/30 19:51:03 [notice] 13#13: worker process 252 exited with code 0
+2023/01/30 19:51:03 [notice] 13#13: worker process 255 exited with code 0
+2023/01/30 19:51:03 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:03 [notice] 13#13: signal 17 (SIGCHLD) received from 252
+2023/01/30 19:51:03 [notice] 13#13: worker process 253 exited with code 0
+2023/01/30 19:51:03 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:51:08.000034       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:08 [notice] 264#264: signal process started
+2023/01/30 19:51:08 [notice] 13#13: signal 1 (SIGHUP) received from 264, reconfiguring
+2023/01/30 19:51:08 [notice] 13#13: reconfiguring
+2023/01/30 19:51:08 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:08 [notice] 13#13: start worker processes
+2023/01/30 19:51:08 [notice] 13#13: start worker process 265
+2023/01/30 19:51:08 [notice] 13#13: start worker process 266
+2023/01/30 19:51:08 [notice] 13#13: start worker process 267
+2023/01/30 19:51:08 [notice] 13#13: start worker process 268
+2023/01/30 19:51:08 [notice] 13#13: start worker process 269
+2023/01/30 19:51:08 [notice] 259#259: gracefully shutting down
+2023/01/30 19:51:08 [notice] 258#258: gracefully shutting down
+2023/01/30 19:51:08 [notice] 261#261: gracefully shutting down
+2023/01/30 19:51:08 [notice] 259#259: exiting
+2023/01/30 19:51:08 [notice] 261#261: exiting
+2023/01/30 19:51:08 [notice] 258#258: exiting
+2023/01/30 19:51:08 [notice] 258#258: exit
+2023/01/30 19:51:08 [notice] 259#259: exit
+2023/01/30 19:51:08 [notice] 261#261: exit
+2023/01/30 19:51:08 [notice] 262#262: gracefully shutting down
+2023/01/30 19:51:08 [notice] 262#262: exiting
+2023/01/30 19:51:08 [notice] 262#262: exit
+2023/01/30 19:51:08 [notice] 260#260: gracefully shutting down
+2023/01/30 19:51:08 [notice] 260#260: exiting
+2023/01/30 19:51:08 [notice] 260#260: exit
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 258
+2023/01/30 19:51:08 [notice] 13#13: worker process 258 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 259
+2023/01/30 19:51:08 [notice] 13#13: worker process 259 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 262
+2023/01/30 19:51:08 [notice] 13#13: worker process 261 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: worker process 262 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 260
+2023/01/30 19:51:08 [notice] 13#13: worker process 260 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+W0130 19:51:08.146073       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:08 [notice] 271#271: signal process started
+2023/01/30 19:51:08 [notice] 13#13: signal 1 (SIGHUP) received from 271, reconfiguring
+2023/01/30 19:51:08 [notice] 13#13: reconfiguring
+2023/01/30 19:51:08 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:08 [notice] 13#13: start worker processes
+2023/01/30 19:51:08 [notice] 13#13: start worker process 272
+2023/01/30 19:51:08 [notice] 13#13: start worker process 273
+2023/01/30 19:51:08 [notice] 13#13: start worker process 274
+2023/01/30 19:51:08 [notice] 13#13: start worker process 275
+2023/01/30 19:51:08 [notice] 13#13: start worker process 276
+2023/01/30 19:51:08 [notice] 265#265: gracefully shutting down
+2023/01/30 19:51:08 [notice] 266#266: gracefully shutting down
+2023/01/30 19:51:08 [notice] 268#268: gracefully shutting down
+2023/01/30 19:51:08 [notice] 267#267: gracefully shutting down
+2023/01/30 19:51:08 [notice] 268#268: exiting
+2023/01/30 19:51:08 [notice] 266#266: exiting
+2023/01/30 19:51:08 [notice] 267#267: exiting
+2023/01/30 19:51:08 [notice] 265#265: exiting
+2023/01/30 19:51:08 [notice] 269#269: gracefully shutting down
+2023/01/30 19:51:08 [notice] 269#269: exiting
+2023/01/30 19:51:08 [notice] 265#265: exit
+2023/01/30 19:51:08 [notice] 267#267: exit
+2023/01/30 19:51:08 [notice] 268#268: exit
+2023/01/30 19:51:08 [notice] 269#269: exit
+2023/01/30 19:51:08 [notice] 266#266: exit
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 268
+2023/01/30 19:51:08 [notice] 13#13: worker process 266 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: worker process 268 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 267
+2023/01/30 19:51:08 [notice] 13#13: worker process 265 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: worker process 267 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: worker process 269 exited with code 0
+2023/01/30 19:51:08 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:08 [notice] 13#13: signal 17 (SIGCHLD) received from 269
+W0130 19:51:10.113805       1 listers.go:79] can not retrieve list of objects using index : Index with name namespace does not exist
+2023/01/30 19:51:10 [notice] 278#278: signal process started
+2023/01/30 19:51:10 [notice] 13#13: signal 1 (SIGHUP) received from 278, reconfiguring
+2023/01/30 19:51:10 [notice] 13#13: reconfiguring
+2023/01/30 19:51:10 [notice] 13#13: using the "epoll" event method
+2023/01/30 19:51:10 [notice] 13#13: start worker processes
+2023/01/30 19:51:10 [notice] 13#13: start worker process 279
+2023/01/30 19:51:10 [notice] 13#13: start worker process 280
+2023/01/30 19:51:10 [notice] 13#13: start worker process 281
+2023/01/30 19:51:10 [notice] 13#13: start worker process 282
+2023/01/30 19:51:10 [notice] 13#13: start worker process 283
+2023/01/30 19:51:10 [notice] 272#272: gracefully shutting down
+2023/01/30 19:51:10 [notice] 273#273: gracefully shutting down
+2023/01/30 19:51:10 [notice] 275#275: gracefully shutting down
+2023/01/30 19:51:10 [notice] 273#273: exiting
+2023/01/30 19:51:10 [notice] 272#272: exiting
+2023/01/30 19:51:10 [notice] 274#274: gracefully shutting down
+2023/01/30 19:51:10 [notice] 275#275: exiting
+2023/01/30 19:51:10 [notice] 274#274: exiting
+2023/01/30 19:51:10 [notice] 272#272: exit
+2023/01/30 19:51:10 [notice] 275#275: exit
+2023/01/30 19:51:10 [notice] 273#273: exit
+2023/01/30 19:51:10 [notice] 274#274: exit
+2023/01/30 19:51:10 [notice] 276#276: gracefully shutting down
+2023/01/30 19:51:10 [notice] 276#276: exiting
+2023/01/30 19:51:10 [notice] 276#276: exit
+2023/01/30 19:51:10 [notice] 13#13: signal 17 (SIGCHLD) received from 275
+2023/01/30 19:51:10 [notice] 13#13: worker process 273 exited with code 0
+2023/01/30 19:51:10 [notice] 13#13: worker process 275 exited with code 0
+2023/01/30 19:51:10 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:10 [notice] 13#13: signal 17 (SIGCHLD) received from 276
+2023/01/30 19:51:10 [notice] 13#13: worker process 272 exited with code 0
+2023/01/30 19:51:10 [notice] 13#13: worker process 276 exited with code 0
+2023/01/30 19:51:10 [notice] 13#13: signal 29 (SIGIO) received
+2023/01/30 19:51:10 [notice] 13#13: signal 17 (SIGCHLD) received from 272
+2023/01/30 19:51:10 [notice] 13#13: worker process 274 exited with code 0
+2023/01/30 19:51:10 [notice] 13#13: signal 29 (SIGIO) received

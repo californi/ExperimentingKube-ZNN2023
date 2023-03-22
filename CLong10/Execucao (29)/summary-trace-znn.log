@@ -1,0 +1,111 @@
+Reading file: automatingDataGeneration.sh
+Reading file: Evaluation-ZNN.7z
+Reading file: fidelitya-778c6c6b8b-5lcdt_tracing_20230127_195252.log
+
+fidelitya data
+
+Reading file: generateLogs171220
+Reading file: generateLogs172658
+Reading file: generateLogs174232
+Reading file: generateLogs175703
+Reading file: generateLogs181216
+Reading file: generateLogs182733
+Reading file: generateLogs184131
+Reading file: generateLogs185550
+Reading file: generateLogs190935
+Reading file: generateLogs193004
+Reading file: generateLogs194516
+Reading file: generateLogs2.sh
+Reading file: k6-rxhhw_tracing_20230127_195252.log
+Reading file: metacontroller-kubow-8479d7588d-9pq4b_tracing_20230127_195252.log
+
+MetaController data
+
+2023-01-27 22:53:41 : t0:activateLowScalabilityHighQuality
+
+2023-01-27 22:53:51 : t0:addLowScalabilityLowQuality
+
+2023-01-27 22:55:36 : t0:addHighScalabilityHighQuality
+
+Reading file: README.md
+Reading file: scalabilitya-78d6cbbc7d-7bk5k_tracing_20230127_195252.log
+
+scalabilitya data
+
+2023-01-27 22:55:58 : t0:removeReplica
+
+2023-01-27 22:56:08 : t0:addReplica
+
+2023-01-27 22:56:43 : t0:removeReplica
+
+2023-01-27 22:57:18 : t0:removeReplica
+
+2023-01-27 22:57:53 : t0:removeReplica
+
+Reading file: summary-trace-znn.log
+Reading file: temp
+Reading file: temp2701
+Reading file: test
+Reading file: tools
+Reading file: traceznn_20230127_195252.log
+
+Trace znn data
+
+{'name': 'kube-znn-db.173e4c10458e43ef', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-db-6cc48797cf to 1', 'dateevent': '2023-01-27 22:49:04+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+
+{'name': 'kube-znn.173e4c1044edca48', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 1', 'dateevent': '2023-01-27 22:49:04+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+
+{'name': 'kube-znn.173e4c466a79b3d6', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 2', 'dateevent': '2023-01-27 22:52:56+00:00', 'image': 'cmendes/znn:800k', 'replicas': 2, 'imageChanges': 0, 'replicasChanges': 2}
+
+{'name': 'kube-znn.173e4c47575eb198', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 3', 'dateevent': '2023-01-27 22:53:00+00:00', 'image': 'cmendes/znn:800k', 'replicas': 3, 'imageChanges': 0, 'replicasChanges': 3}
+
+{'name': 'kube-znn.173e4c487eb6ffc1', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 4', 'dateevent': '2023-01-27 22:53:05+00:00', 'image': 'cmendes/znn:800k', 'replicas': 4, 'imageChanges': 0, 'replicasChanges': 4}
+
+{'name': 'kube-znn.173e4c49a970bc30', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 5', 'dateevent': '2023-01-27 22:53:10+00:00', 'image': 'cmendes/znn:800k', 'replicas': 5, 'imageChanges': 0, 'replicasChanges': 5}
+
+{'name': 'kube-znn.173e4c4ad0f36e42', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 6', 'dateevent': '2023-01-27 22:53:15+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 6}
+
+{'name': 'kube-znn.173e4c4bfae3507a', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:53:20+00:00', 'image': 'cmendes/znn:800k', 'replicas': 7, 'imageChanges': 0, 'replicasChanges': 7}
+
+{'name': 'kube-znn.173e4c4d275e488a', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:53:25+00:00', 'image': 'cmendes/znn:800k', 'replicas': 8, 'imageChanges': 0, 'replicasChanges': 8}
+
+{'name': 'kube-znn.173e4c4e4f95b027', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-68bd9d6b5b to 9', 'dateevent': '2023-01-27 22:53:30+00:00', 'image': 'cmendes/znn:800k', 'replicas': 9, 'imageChanges': 0, 'replicasChanges': 9}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-68bd9d6b5b to 10', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:800k', 'replicas': 10, 'imageChanges': 0, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-7cbbf89f8 to 3', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 8', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-7cbbf89f8 to 5', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 7', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-7cbbf89f8 to 6', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 3', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-7cbbf89f8 to 2', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 2', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c57864aa1ca', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-7cbbf89f8 to 3', 'dateevent': '2023-01-27 22:54:10+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 1', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-7cbbf89f8 to 4', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:600k', 'replicas': 4, 'imageChanges': 1, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-7cbbf89f8 to 2', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:200k', 'replicas': 4, 'imageChanges': 2, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-86cccc748b to 2', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:200k', 'replicas': 4, 'imageChanges': 2, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-68bd9d6b5b to 0', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:200k', 'replicas': 4, 'imageChanges': 2, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-86cccc748b to 3', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:200k', 'replicas': 4, 'imageChanges': 2, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173e4c4f78b480e5', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-7cbbf89f8 to 1', 'dateevent': '2023-01-27 22:53:35+00:00', 'image': 'cmendes/znn:200k', 'replicas': 4, 'imageChanges': 2, 'replicasChanges': 11}
+
+Reading file: VersionA-Monolithic
+Reading file: VersionB-MicroControllers
+Reading file: VersionC-WithFailureManagerMetaController
+Reading file: VersionC-ZTemp

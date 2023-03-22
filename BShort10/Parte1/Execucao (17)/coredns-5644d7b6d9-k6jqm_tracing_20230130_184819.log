@@ -1,0 +1,111 @@
+2023-01-30T21:32:12.751Z [INFO] plugin/ready: Still waiting on: "kubernetes"
+.:53
+2023-01-30T21:32:14.889Z [INFO] plugin/reload: Running configuration MD5 = f5cb5439bcfc031db30b1dc6e96e450f
+2023-01-30T21:32:14.889Z [INFO] CoreDNS-1.6.2
+2023-01-30T21:32:14.889Z [INFO] linux/amd64, go1.12.8, 795a3eb
+CoreDNS-1.6.2
+linux/amd64, go1.12.8, 795a3eb
+2023-01-30T21:32:22.752Z [INFO] plugin/ready: Still waiting on: "kubernetes"
+2023-01-30T21:32:32.752Z [INFO] plugin/ready: Still waiting on: "kubernetes"
+I0130 21:32:39.889534       1 trace.go:82] Trace[2131436489]: "Reflector pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94 ListAndWatch" (started: 2023-01-30 21:32:09.888849113 +0000 UTC m=+0.022347494) (total time: 30.000505658s):
+Trace[2131436489]: [30.000505658s] [30.000505658s] END
+E0130 21:32:39.889642       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Endpoints: Get https://10.96.0.1:443/api/v1/endpoints?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889642       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Endpoints: Get https://10.96.0.1:443/api/v1/endpoints?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889642       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Endpoints: Get https://10.96.0.1:443/api/v1/endpoints?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+I0130 21:32:39.889641       1 trace.go:82] Trace[286793496]: "Reflector pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94 ListAndWatch" (started: 2023-01-30 21:32:09.888785421 +0000 UTC m=+0.022283802) (total time: 30.00056055s):
+Trace[286793496]: [30.00056055s] [30.00056055s] END
+E0130 21:32:39.889642       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Endpoints: Get https://10.96.0.1:443/api/v1/endpoints?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+I0130 21:32:39.890311       1 trace.go:82] Trace[2098649239]: "Reflector pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94 ListAndWatch" (started: 2023-01-30 21:32:09.888799919 +0000 UTC m=+0.022298400) (total time: 30.00074324s):
+Trace[2098649239]: [30.00074324s] [30.00074324s] END
+E0130 21:32:39.890359       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Service: Get https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.890359       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Service: Get https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.890359       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Service: Get https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889680       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Namespace: Get https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889680       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Namespace: Get https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889680       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Namespace: Get https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.890359       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Service: Get https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+E0130 21:32:39.889680       1 reflector.go:126] pkg/mod/k8s.io/client-go@v11.0.0+incompatible/tools/cache/reflector.go:94: Failed to list *v1.Namespace: Get https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0: dial tcp 10.96.0.1:443: i/o timeout
+2023-01-30T21:33:29.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:44467->172.27.176.1:53: i/o timeout
+2023-01-30T21:33:29.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59754->172.27.176.1:53: i/o timeout
+2023-01-30T21:33:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:48134->172.27.176.1:53: i/o timeout
+2023-01-30T21:33:34.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:33175->172.27.176.1:53: i/o timeout
+2023-01-30T21:34:29.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:38591->172.27.176.1:53: i/o timeout
+2023-01-30T21:34:29.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:38521->172.27.176.1:53: i/o timeout
+2023-01-30T21:34:34.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:33207->172.27.176.1:53: i/o timeout
+2023-01-30T21:34:34.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:46930->172.27.176.1:53: i/o timeout
+2023-01-30T21:35:29.065Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:34523->172.27.176.1:53: i/o timeout
+2023-01-30T21:35:29.065Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:43833->172.27.176.1:53: i/o timeout
+2023-01-30T21:35:34.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:36395->172.27.176.1:53: i/o timeout
+2023-01-30T21:35:34.066Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:46426->172.27.176.1:53: i/o timeout
+2023-01-30T21:36:29.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:46628->172.27.176.1:53: i/o timeout
+2023-01-30T21:36:29.066Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:48975->172.27.176.1:53: i/o timeout
+2023-01-30T21:36:34.066Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:51731->172.27.176.1:53: i/o timeout
+2023-01-30T21:36:34.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:42565->172.27.176.1:53: i/o timeout
+2023-01-30T21:37:29.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:35146->172.27.176.1:53: i/o timeout
+2023-01-30T21:37:29.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:50265->172.27.176.1:53: i/o timeout
+2023-01-30T21:37:34.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:59671->172.27.176.1:53: i/o timeout
+2023-01-30T21:37:34.112Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:50240->172.27.176.1:53: i/o timeout
+2023-01-30T21:38:29.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:52257->172.27.176.1:53: i/o timeout
+2023-01-30T21:38:29.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:42340->172.27.176.1:53: i/o timeout
+2023-01-30T21:38:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:51871->172.27.176.1:53: i/o timeout
+2023-01-30T21:38:34.070Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:47555->172.27.176.1:53: i/o timeout
+2023-01-30T21:39:29.064Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:45875->172.27.176.1:53: i/o timeout
+2023-01-30T21:39:29.064Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:50715->172.27.176.1:53: i/o timeout
+2023-01-30T21:39:34.064Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:49006->172.27.176.1:53: i/o timeout
+2023-01-30T21:39:34.064Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:59125->172.27.176.1:53: i/o timeout
+2023-01-30T21:40:29.066Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:56008->172.27.176.1:53: i/o timeout
+2023-01-30T21:40:29.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:36644->172.27.176.1:53: i/o timeout
+2023-01-30T21:40:34.067Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:55078->172.27.176.1:53: i/o timeout
+2023-01-30T21:40:34.067Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:35644->172.27.176.1:53: i/o timeout
+2023-01-30T21:41:29.070Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:41683->172.27.176.1:53: i/o timeout
+2023-01-30T21:41:29.070Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:58343->172.27.176.1:53: i/o timeout
+2023-01-30T21:41:34.070Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:40409->172.27.176.1:53: i/o timeout
+2023-01-30T21:41:34.070Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:40937->172.27.176.1:53: i/o timeout
+2023-01-30T21:42:29.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:49345->172.27.176.1:53: i/o timeout
+2023-01-30T21:42:29.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:43550->172.27.176.1:53: i/o timeout
+2023-01-30T21:42:34.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59121->172.27.176.1:53: i/o timeout
+2023-01-30T21:42:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:58849->172.27.176.1:53: i/o timeout
+2023-01-30T21:43:29.063Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:39715->172.27.176.1:53: i/o timeout
+2023-01-30T21:43:29.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:47773->172.27.176.1:53: i/o timeout
+2023-01-30T21:43:34.063Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:53004->172.27.176.1:53: i/o timeout
+2023-01-30T21:43:34.063Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:59134->172.27.176.1:53: i/o timeout
+2023-01-30T21:44:29.061Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:51958->172.27.176.1:53: i/o timeout
+2023-01-30T21:44:29.062Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:50986->172.27.176.1:53: i/o timeout
+2023-01-30T21:44:34.061Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:46144->172.27.176.1:53: i/o timeout
+2023-01-30T21:44:34.062Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:42736->172.27.176.1:53: i/o timeout
+2023-01-30T21:45:29.062Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:52561->172.27.176.1:53: i/o timeout
+2023-01-30T21:45:29.062Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:39514->172.27.176.1:53: i/o timeout
+2023-01-30T21:45:34.063Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:54031->172.27.176.1:53: i/o timeout
+2023-01-30T21:45:34.063Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:53790->172.27.176.1:53: i/o timeout
+2023-01-30T21:46:29.062Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:48316->172.27.176.1:53: i/o timeout
+2023-01-30T21:46:29.065Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:37718->172.27.176.1:53: i/o timeout
+2023-01-30T21:46:34.062Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59342->172.27.176.1:53: i/o timeout
+2023-01-30T21:46:34.062Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:37645->172.27.176.1:53: i/o timeout
+2023-01-30T21:47:29.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:39541->172.27.176.1:53: i/o timeout
+2023-01-30T21:47:29.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:37801->172.27.176.1:53: i/o timeout
+2023-01-30T21:47:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:47271->172.27.176.1:53: i/o timeout
+2023-01-30T21:47:34.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59196->172.27.176.1:53: i/o timeout
+2023-01-30T21:48:29.060Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:39436->172.27.176.1:53: i/o timeout
+2023-01-30T21:48:29.061Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:57605->172.27.176.1:53: i/o timeout
+2023-01-30T21:48:34.060Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59797->172.27.176.1:53: i/o timeout
+2023-01-30T21:48:34.060Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:46918->172.27.176.1:53: i/o timeout
+2023-01-30T21:49:29.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:45354->172.27.176.1:53: i/o timeout
+2023-01-30T21:49:29.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:36292->172.27.176.1:53: i/o timeout
+2023-01-30T21:49:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:50653->172.27.176.1:53: i/o timeout
+2023-01-30T21:49:34.070Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:53640->172.27.176.1:53: i/o timeout
+2023-01-30T21:50:29.065Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:43047->172.27.176.1:53: i/o timeout
+2023-01-30T21:50:29.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:51418->172.27.176.1:53: i/o timeout
+2023-01-30T21:50:34.066Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:60079->172.27.176.1:53: i/o timeout
+2023-01-30T21:50:34.066Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:47188->172.27.176.1:53: i/o timeout
+2023-01-30T21:51:29.064Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:46763->172.27.176.1:53: i/o timeout
+2023-01-30T21:51:29.064Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:54990->172.27.176.1:53: i/o timeout
+2023-01-30T21:51:34.065Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:59680->172.27.176.1:53: i/o timeout
+2023-01-30T21:51:34.065Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:58724->172.27.176.1:53: i/o timeout
+2023-01-30T21:52:29.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:46497->172.27.176.1:53: i/o timeout
+2023-01-30T21:52:29.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:41570->172.27.176.1:53: i/o timeout
+2023-01-30T21:52:34.069Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:47377->172.27.176.1:53: i/o timeout
+2023-01-30T21:52:34.069Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:40725->172.27.176.1:53: i/o timeout
+2023-01-30T21:53:29.067Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:48705->172.27.176.1:53: i/o timeout
+2023-01-30T21:53:29.067Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:33178->172.27.176.1:53: i/o timeout
+2023-01-30T21:53:34.068Z [ERROR] plugin/errors: 2 minikube. AAAA: read udp 172.17.0.2:36985->172.27.176.1:53: i/o timeout
+2023-01-30T21:53:34.068Z [ERROR] plugin/errors: 2 minikube. A: read udp 172.17.0.2:51280->172.27.176.1:53: i/o timeout

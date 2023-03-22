@@ -1,0 +1,144 @@
+Reading file: automatingDataGeneration.sh
+Reading file: BLong10_parte1
+Reading file: BLong10_parte1.7z
+Reading file: BLong10_parte2
+Reading file: BLong10_parte2.7z
+Reading file: BLong10_parte3
+Reading file: BLong10_parte3.7z
+Reading file: CLong10
+Reading file: CLong10.7z
+Reading file: CShort10
+Reading file: CShort10.7z
+Reading file: Evaluation-ZNN.7z
+Reading file: fidelitya-5b8dd7f8c7-8b5fn_tracing_20230130_132814.log
+
+fidelitya data
+
+2023-01-30 16:29:18 : t0:removeLowQuality
+
+2023-01-30 16:29:23 : t0:removeLowQuality
+
+2023-01-30 16:29:33 : t0:removeLowQuality
+
+2023-01-30 16:29:38 : t0:removeLowQuality
+
+2023-01-30 16:29:43 : t0:removeLowQuality
+
+2023-01-30 16:29:48 INFO  Rainbow:694 - Delegate: master[EXECUTOR]: Visiting execution leaf
+
+2023-01-30 16:30:23 : t0:removeLowQuality
+
+2023-01-30 16:30:28 : t0:removeLowQuality
+
+2023-01-30 16:30:33 : t0:removeLowQuality
+
+2023-01-30 16:31:03 : t0:lowerFidelity
+
+Reading file: generateLogs120703
+Reading file: generateLogs122741
+Reading file: generateLogs124617
+Reading file: generateLogs130307
+Reading file: generateLogs131938
+Reading file: generateLogs2.sh
+Reading file: k6-4d4b7_tracing_20230130_132814.log
+Reading file: nginx-ingress-7f5885d87c-k6kjd_tracing_20230130_132814.log
+Reading file: README.md
+Reading file: scalabilitya-858689ddbc-sgd87_tracing_20230130_132814.log
+
+scalabilitya data
+
+2023-01-30 16:28:52 : t0:addReplica
+
+2023-01-30 16:29:02 : t0:addReplica
+
+2023-01-30 16:29:07 : t0:addReplica
+
+2023-01-30 16:29:12 : t0:addReplica
+
+2023-01-30 16:29:17 : t0:addReplica
+
+2023-01-30 16:29:27 : t0:addReplica
+
+2023-01-30 16:30:02 : t0:removeReplica
+
+2023-01-30 16:30:07 : t0:removeReplica
+
+2023-01-30 16:30:42 : t0:addReplica
+
+2023-01-30 16:30:47 : t0:addReplica
+
+2023-01-30 16:30:52 : t0:addReplica
+
+2023-01-30 16:30:57 : t0:addReplica
+
+2023-01-30 16:31:02 : t0:addReplica
+
+2023-01-30 16:31:07 : t0:removeLowScalability
+
+2023-01-30 16:31:12 : t0:addLowScalability
+
+2023-01-30 16:31:42 : t0:removeReplica
+
+Reading file: scalabilityb-66d698fc76-kcfxq_tracing_20230130_132814.log
+
+scalabilityb data
+
+2023-01-30 16:32:18 : t0:removeReplica
+
+Reading file: summary-trace-znn.log
+Reading file: temp
+Reading file: temp2701
+Reading file: test
+Reading file: tools
+Reading file: traceznn_20230130_132814.log
+
+Trace znn data
+
+{'name': 'kube-znn-db.173f22cb1b58ba35', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-db-558bb5dd64 to 1', 'dateevent': '2023-01-30 16:24:02+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+
+{'name': 'kube-znn.173f22cb1a551d27', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 1', 'dateevent': '2023-01-30 16:24:02+00:00', 'image': 'cmendes/znn:800k', 'replicas': 1, 'imageChanges': 0, 'replicasChanges': 1}
+
+{'name': 'kube-znn.173f230ef7808a00', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 2', 'dateevent': '2023-01-30 16:28:53+00:00', 'image': 'cmendes/znn:800k', 'replicas': 2, 'imageChanges': 0, 'replicasChanges': 2}
+
+{'name': 'kube-znn.173f231100305b0f', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 3', 'dateevent': '2023-01-30 16:29:02+00:00', 'image': 'cmendes/znn:800k', 'replicas': 3, 'imageChanges': 0, 'replicasChanges': 3}
+
+{'name': 'kube-znn.173f23122a64f00c', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 4', 'dateevent': '2023-01-30 16:29:07+00:00', 'image': 'cmendes/znn:800k', 'replicas': 4, 'imageChanges': 0, 'replicasChanges': 4}
+
+{'name': 'kube-znn.173f231353ac2ddb', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 5', 'dateevent': '2023-01-30 16:29:12+00:00', 'image': 'cmendes/znn:800k', 'replicas': 5, 'imageChanges': 0, 'replicasChanges': 5}
+
+{'name': 'kube-znn.173f23147cbd5667', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 6', 'dateevent': '2023-01-30 16:29:17+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 6}
+
+{'name': 'kube-znn.173f2316d36546e4', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 7', 'dateevent': '2023-01-30 16:29:27+00:00', 'image': 'cmendes/znn:800k', 'replicas': 7, 'imageChanges': 0, 'replicasChanges': 7}
+
+{'name': 'kube-znn.173f231ef6f08a0e', 'type': 'Normal', 'message': 'Scaled down replica set kube-znn-744bbbc54b to 6', 'dateevent': '2023-01-30 16:30:02+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 8}
+
+{'name': 'kube-znn.173f232021f51a1e', 'type': 'Normal', 'message': 'Scaled down replica set kube-znn-744bbbc54b to 5', 'dateevent': '2023-01-30 16:30:07+00:00', 'image': 'cmendes/znn:800k', 'replicas': 5, 'imageChanges': 0, 'replicasChanges': 9}
+
+{'name': 'kube-znn.173f23147cbd5667', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 6', 'dateevent': '2023-01-30 16:29:17+00:00', 'image': 'cmendes/znn:800k', 'replicas': 6, 'imageChanges': 0, 'replicasChanges': 10}
+
+{'name': 'kube-znn.173f2316d36546e4', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 7', 'dateevent': '2023-01-30 16:29:27+00:00', 'image': 'cmendes/znn:800k', 'replicas': 7, 'imageChanges': 0, 'replicasChanges': 11}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-744bbbc54b to 8', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:800k', 'replicas': 8, 'imageChanges': 0, 'replicasChanges': 12}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-744bbbc54b to 9', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:800k', 'replicas': 9, 'imageChanges': 0, 'replicasChanges': 13}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-744bbbc54b to 10', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:800k', 'replicas': 10, 'imageChanges': 0, 'replicasChanges': 14}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-5c95bd98fb to 3', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 14}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-744bbbc54b to 8', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 14}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-5c95bd98fb to 5', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:600k', 'replicas': 10, 'imageChanges': 1, 'replicasChanges': 14}
+
+{'name': 'kube-znn.173f23363f1cb423', 'type': 'Normal', 'message': 'Scaled up replica set kube-znn-744bbbc54b to 9', 'dateevent': '2023-01-30 16:31:42+00:00', 'image': 'cmendes/znn:600k', 'replicas': 12, 'imageChanges': 1, 'replicasChanges': 15}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled up replica set kube-znn-5c95bd98fb to 6', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:600k', 'replicas': 12, 'imageChanges': 1, 'replicasChanges': 15}
+
+{'name': 'kube-znn.173f232021f51a1e', 'type': 'Normal', 'message': 'Scaled down replica set kube-znn-744bbbc54b to 5', 'dateevent': '2023-01-30 16:30:07+00:00', 'image': 'cmendes/znn:600k', 'replicas': 6, 'imageChanges': 1, 'replicasChanges': 16}
+
+{'name': 'kube-znn.173f232a9af83a17', 'type': 'Normal', 'message': '(combined from similar events): Scaled down replica set kube-znn-5c95bd98fb to 3', 'dateevent': '2023-01-30 16:30:52+00:00', 'image': 'cmendes/znn:600k', 'replicas': 6, 'imageChanges': 1, 'replicasChanges': 16}
+
+Reading file: VersionA-Monolithic
+Reading file: VersionB-MicroControllers
+Reading file: VersionC-WithFailureManagerMetaController
+Reading file: VersionC-ZTemp
