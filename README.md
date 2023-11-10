@@ -1,12 +1,13 @@
-# For all scenarios (IMPORTANT: ORDER IS CRUCIAL)
+This Code is a customised version of Kubow (https://github.com/ppgia-unifor/kubow), providing experimentations for Adaptive Systems Approaches in SEAMS 2023 (https://conf.researchr.org/home/seams-2023)
 
-## Cluster configurations - defining cluster (before of all, kubectl and minikube must be installed)
+Cluster configurations - defining cluster (before of all, kubectl and minikube must be installed)
 
-minikube delete
-minikube start --cpus=5 --memory=8192 --vm-driver hyperv --kubernetes-version=v1.16.10
-# minikube start --cpus=5 --memory=8192 --hyperv-virtual-switch "newNetwork" --vm-driver hyperv --kubernetes-version=v1.16.10
+- minikube delete
+- minikube start --cpus=5 --memory=8192 --vm-driver hyperv --kubernetes-version=v1.16.10
+- minikube start --cpus=5 --memory=8192 --hyperv-virtual-switch "newNetwork" --vm-driver hyperv --kubernetes-version=v1.16.10
 
 
+It is necessary an account with plan that there are at least 2500 pulling by day.
 spec:
   containers:
   - name: private-reg-container-name
@@ -14,8 +15,8 @@ spec:
   imagePullSecrets:
   - name: regcred
 
-#---------------------------------------------------#---------------------------------------------------
-## creating environment: Configuration A - Always - delete and re-create the Cluster
+-- Monolithic Configuration: Mon-KZ
+creating environment: Configuration A - Always - delete and re-create the Cluster
 kubectl apply -f ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MetaController/priorityObjectsK8s/
 kubectl apply -k ./Evaluation-ZNN/tools/monitoring/
 kubectl apply -k ./Evaluation-ZNN/VersionA-Monolithic/TargetSystem/kube-znn/overlay/default/
@@ -29,8 +30,10 @@ kubectl delete -k ./Evaluation-ZNN/VersionA-Monolithic/TargetSystem/kube-znn/ove
 kubectl delete -f ./Evaluation-ZNN/tools/nginxc-ingress/
 kubectl delete -k ./Evaluation-ZNN/VersionA-Monolithic/kubow/overlay/kube-znn
 kubectl delete -k ./Evaluation-ZNN/tools/k6/
-#---------------------------------------------------#---------------------------------------------------
-## creating environment: Configuration B - Always - delete and re-create the Cluster
+
+
+-- Decentralized Configuration: Des-KZ
+creating environment: Configuration B - Always - delete and re-create the Cluster
 kubectl apply -f ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MetaController/priorityObjectsK8s/
 kubectl apply -k ./Evaluation-ZNN/tools/monitoring/
 kubectl apply -k ./Evaluation-ZNN/VersionB-Microcontrollers/TargetSystem/kube-znn/overlay/default/
@@ -50,11 +53,9 @@ kubectl delete -k ./Evaluation-ZNN/VersionB-Microcontrollers/scalabilitya_microc
 kubectl delete -k ./Evaluation-ZNN/tools/k6/
 
 
-#---------------------------------------------------#---------------------------------------------------
 
-
-## creating environment: Configuration C - Always - delete and re-create the Cluster
-
+-- Decentralized Configuration with a Meta-Controller: Meta-KZ
+creating environment: Configuration C - Always - delete and re-create the Cluster
 kubectl apply -f ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MetaController/priorityObjectsK8s/
 kubectl apply -k ./Evaluation-ZNN/tools/monitoring/
 kubectl apply -k ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/TargetSystem/kube-znn/overlay/default/
@@ -66,7 +67,6 @@ kubectl apply -k ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/Micr
 kubectl apply -f ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MicroControllers/tailored_based/k8s/
 kubectl apply -k ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MetaController/kubow/overlay/controller_targetsystem/
 kubectl apply -k ./Evaluation-ZNN/tools/k6/
-
 
 kubectl delete -f ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/MetaController/priorityObjectsK8s/
 kubectl delete -k ./Evaluation-ZNN/tools/monitoring/
@@ -81,22 +81,18 @@ kubectl delete -k ./Evaluation-ZNN/VersionC-WithFailureManagerMetaController/Met
 kubectl delete -k ./Evaluation-ZNN/tools/k6/
 
 
-#---------------------------------------------------#---------------------------------------------------
-
-## Generating logs
+Generating logs
 kubectl logs pod/fidelitya-86748d8745-j9scv >> fidelitya1404.log
 kubectl logs pod/scalabilitya-7cc9bfc6b8-66cj8 >> scalabilitya1404.log
 pod=$(kubectl get pod | grep scalability | cut -b 1-29)
 pod=$(kubectl get pod | grep fidelity | cut -b 1-29)
 
-## Monitoring
+Monitoring
 while (1) {clear; kubectl get all; sleep 5}
 while (1) {clear; kubectl describe deployment kube-znn; sleep 5}
 
-### query prometheus in K8s
+query prometheus in K8s
 kubectl port-forward pod/prometheus-d4499d495-4bhxg 9090:9090
 
-### Grafana
+Grafana
 kubectl port-forward pod/grafana-b659fcdd9-r5sck 3000:3000
-
-#---------------------------------------------------
